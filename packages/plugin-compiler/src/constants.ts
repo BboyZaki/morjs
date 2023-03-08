@@ -1,4 +1,4 @@
-import type { WebCompilerUserConfig } from '@morjs/plugin-compiler-web'
+import type { WebCompilerUserConfig } from '@zakijs/plugin-compiler-web'
 import {
   CompileModuleKind,
   CompileScriptTarget,
@@ -11,7 +11,7 @@ import {
   validKeysMessage,
   webpack,
   zod as z
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   getAllCompilerTargets,
@@ -44,8 +44,8 @@ export const INDEPENDENT_SUBPACAKGE_JSON = 'independentSubpackageJson'
 function generateMorRuntimeRegexp() {
   const rootDir = slash(path.resolve(__dirname, '..'))
   let packages = [
-    '@morjs/core',
-    '@morjs/api',
+    '@zakijs/core',
+    '@zakijs/api',
     '@ali/openmor-core',
     '@ali/openmor-api'
   ]

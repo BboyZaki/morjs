@@ -3,8 +3,8 @@ import {
   createHooks,
   hooks,
   MorSolution
-} from '@morjs/api/lib/hooks'
-import { asArray } from '@morjs/api/lib/utils'
+} from '@zakijs/api/lib/hooks'
+import { asArray } from '@zakijs/api/lib/utils'
 import { ContextPlugin } from '../plugins/contextPlugin'
 import { EventPlugin } from '../plugins/eventPlugin'
 

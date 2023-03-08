@@ -1,4 +1,4 @@
-import { FileParserOptions, posthtml } from '@morjs/utils'
+import { FileParserOptions, posthtml } from '@zakijs/utils'
 
 export type PostHtmlCustomPlugin = (
   tree: posthtml.Node,

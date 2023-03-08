@@ -1,5 +1,5 @@
-import { getEnv } from '@morjs/api'
-import { logger } from '@morjs/api/lib/logger'
+import { getEnv } from '@zakijs/api'
+import { logger } from '@zakijs/api/lib/logger'
 import { GlobalType, ICallItem, IGlobalType } from './types'
 
 export default class RequireContext {

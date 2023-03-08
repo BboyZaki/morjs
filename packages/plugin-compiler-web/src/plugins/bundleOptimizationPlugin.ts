@@ -1,4 +1,4 @@
-import { mor, MOR_VENDOR_FILE, Plugin, WebpackWrapper } from '@morjs/utils'
+import { mor, MOR_VENDOR_FILE, Plugin, WebpackWrapper } from '@zakijs/utils'
 
 /**
  * 默认编译优化配置

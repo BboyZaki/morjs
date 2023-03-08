@@ -1,4 +1,4 @@
-import { defineConfig } from '@morjs/cli'
+import { defineConfig } from '@zakijs/cli'
 
 export default defineConfig([
   {

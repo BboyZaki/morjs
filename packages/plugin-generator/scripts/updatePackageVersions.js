@@ -5,10 +5,10 @@ const PRE_RELEASE_REGEXP = /beta|alpha|rc/
 
 function updatePackageVersions(obj) {
   for (const packageName in obj) {
-    if (packageName.startsWith('@morjs/')) {
+    if (packageName.startsWith('@zakijs/')) {
       const packageJsonPath = resolve(
         __dirname,
-        `../../${packageName.replace('@morjs/', '')}`,
+        `../../${packageName.replace('@zakijs/', '')}`,
         'package.json'
       )
 

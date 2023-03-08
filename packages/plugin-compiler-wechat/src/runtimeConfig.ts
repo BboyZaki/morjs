@@ -3,7 +3,7 @@
  * @param fileName - 文件名
  */
 function generatePath(fileName: string): string {
-  return require.resolve(`@morjs/runtime-mini/lib/wechat/${fileName}.js`)
+  return require.resolve(`@zakijs/runtime-mini/lib/wechat/${fileName}.js`)
 }
 
 /**

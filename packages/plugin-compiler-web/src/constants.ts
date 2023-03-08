@@ -1,4 +1,4 @@
-import { mor, zod as z } from '@morjs/utils'
+import { mor, zod as z } from '@zakijs/utils'
 import path from 'path'
 
 /**
@@ -28,7 +28,7 @@ export const ASSETS_REGEXP =
  */
 export const CURRENT_NODE_MODUELS = path.resolve(__dirname, '../node_modules')
 
-export const RUNTIME_NPM_NAME = '@morjs/runtime-web'
+export const RUNTIME_NPM_NAME = '@zakijs/runtime-web'
 
 export const WEB_RUNTIMES = {
   runtime: `${RUNTIME_NPM_NAME}/lib/runtime`,

@@ -1,4 +1,4 @@
-import { addSimilarTarget } from '@morjs/plugin-compiler-alipay'
+import { addSimilarTarget } from '@zakijs/plugin-compiler-alipay'
 
 export const target = 'taobao'
 export const targetDescription = '淘宝小程序'
@@ -16,7 +16,7 @@ export {
   templateDirectives,
   templateProcessor,
   templateSingleTagNames
-} from '@morjs/plugin-compiler-alipay'
+} from '@zakijs/plugin-compiler-alipay'
 
 export const globalObject = 'my'
 export const resolveMainFields = ['taobao', 'main']

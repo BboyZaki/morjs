@@ -1,4 +1,4 @@
-import { isSimilarTarget as isAlipaySimilarTarget } from '@morjs/plugin-compiler-alipay'
+import { isSimilarTarget as isAlipaySimilarTarget } from '@zakijs/plugin-compiler-alipay'
 import {
   EntryBuilderHelpers,
   lodash as _,
@@ -6,7 +6,7 @@ import {
   Plugin,
   Runner,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import {
   CompilerRuntimeConfig,
   getComposedCompilerPlugins
@@ -116,7 +116,7 @@ export class RuntimeInjectPlugin implements Plugin {
           autoInjectRuntime?.['behavior'] === true) &&
         targetRuntimes.behavior
 
-      // 处理 @morjs/core 和 @morjs/api 运行时的注入
+      // 处理 @zakijs/core 和 @zakijs/api 运行时的注入
       runner.hooks.preprocessorParser.tap(
         this.name,
         (fileContent, context, options) => {
@@ -145,8 +145,8 @@ export class RuntimeInjectPlugin implements Plugin {
             fileContent = `${importBehaviorClause}${fileContent}`
           }
 
-          // 只处理 @morjs/core 或 @morjs/api 的运行时修改
-          // 如果未使用 @morjs/core 或 @morjs/api 则不替换任何内容
+          // 只处理 @zakijs/core 或 @zakijs/api 的运行时修改
+          // 如果未使用 @zakijs/core 或 @zakijs/api 则不替换任何内容
           const matched = fileInfo.path.match(MOR_RUNTIME_PACKAGE_REGEXP)
           if (!matched) return fileContent
 

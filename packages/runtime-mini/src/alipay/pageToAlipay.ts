@@ -1,4 +1,4 @@
-import { compose } from '@morjs/api/lib/utils'
+import { compose } from '@zakijs/api/lib/utils'
 import {
   injectComponentSelectorMethodsSupport,
   injectCreateIntersectionObserverSupport,

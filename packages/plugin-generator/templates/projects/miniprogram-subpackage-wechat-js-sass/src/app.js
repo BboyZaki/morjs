@@ -1,4 +1,4 @@
-import { wApp } from '@morjs/core'
+import { wApp } from '@zakijs/core'
 
 wApp({
   globalData: {},

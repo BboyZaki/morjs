@@ -41,7 +41,7 @@ async function install() {
     ])
   }
 
-  const scope = choices.packages.map((pkg) => `@morjs/${pkg}`).join(',')
+  const scope = choices.packages.map((pkg) => `@zakijs/${pkg}`).join(',')
   for (const dep of choices.deps.split(' ')) {
     console.log(chalk.green(`${scope} 开始安装 ${dep}...`))
     await execa.command(

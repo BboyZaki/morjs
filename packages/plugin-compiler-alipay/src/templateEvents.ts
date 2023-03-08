@@ -1,4 +1,4 @@
-import { lodash as _ } from '@morjs/utils'
+import { lodash as _ } from '@zakijs/utils'
 
 /**
  * 所有组件都支持的基础事件

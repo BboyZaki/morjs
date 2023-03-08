@@ -1,4 +1,4 @@
-import { EntryBuilderHelpers, Plugin, Runner, webpack } from '@morjs/utils'
+import { EntryBuilderHelpers, Plugin, Runner, webpack } from '@zakijs/utils'
 import {
   CompileModes,
   CompilerUserConfig,

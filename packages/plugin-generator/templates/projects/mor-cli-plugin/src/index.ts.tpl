@@ -1,4 +1,4 @@
-import type { Plugin, Runner } from '@morjs/cli'
+import type { Plugin, Runner } from '@zakijs/cli'
 
 /*
  * 若插件有设置参数 IRuntimePlugin<%= _.upperFirst(_.camelCase(name)) %>Options

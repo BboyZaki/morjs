@@ -1,4 +1,4 @@
-import { zod as z } from '@morjs/utils'
+import { zod as z } from '@zakijs/utils'
 
 export const COMMAND_NAME = 'mock'
 

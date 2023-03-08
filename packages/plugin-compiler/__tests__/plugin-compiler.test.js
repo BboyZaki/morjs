@@ -2,6 +2,6 @@
 
 const pluginCompiler = require('..')
 
-describe('@morjs/plugin-compiler', () => {
+describe('@zakijs/plugin-compiler', () => {
   it('needs tests')
 })

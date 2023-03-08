@@ -6,7 +6,7 @@ import {
   Plugin,
   Runner,
   validKeysMessage
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 // 依赖分析相关
 const AnalyzerModes = objectEnum(['server', 'static', 'json', 'disabled'])

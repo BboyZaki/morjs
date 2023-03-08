@@ -1,4 +1,4 @@
-import { EntryFileType, webpack } from '@morjs/utils'
+import { EntryFileType, webpack } from '@zakijs/utils'
 import { CustomLoaderOptions } from '../constants'
 import styleLoader from './styleLoader'
 import templateLoader from './templateLoader'

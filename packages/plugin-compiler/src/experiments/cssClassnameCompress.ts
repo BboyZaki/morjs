@@ -6,7 +6,7 @@ import {
   Plugin,
   Runner,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { customAlphabet } from 'nanoid'
 import parser from 'postcss-selector-parser'
 import { CompilerUserConfig, COMPILE_COMMAND_NAME } from '../constants'

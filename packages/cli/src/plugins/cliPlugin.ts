@@ -7,7 +7,7 @@ import {
   Plugin,
   Runner,
   Takin
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 
 function generateMorBanner() {

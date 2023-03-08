@@ -1,4 +1,4 @@
-import type { Plugin, Runner } from '@morjs/utils'
+import type { Plugin, Runner } from '@zakijs/utils'
 
 const DYNAMIC_LIB_PREFIX = 'dynamicLib://'
 

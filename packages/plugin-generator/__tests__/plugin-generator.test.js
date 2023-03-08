@@ -2,6 +2,6 @@
 
 const pluginGenerator = require('..')
 
-describe('@morjs/plugin-generator', () => {
+describe('@zakijs/plugin-generator', () => {
   it('needs tests')
 })

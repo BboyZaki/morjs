@@ -14,7 +14,7 @@ import {
   Runner,
   slash,
   webpack
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { CompileModes, CompilerUserConfig } from '../constants'
 

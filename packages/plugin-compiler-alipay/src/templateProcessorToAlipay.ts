@@ -1,4 +1,4 @@
-import { FileParserOptions, posthtml } from '@morjs/utils'
+import { FileParserOptions, posthtml } from '@zakijs/utils'
 import { isNativeTag } from './templateTags'
 
 type NodeAttributes = Record<string, string | number | boolean>

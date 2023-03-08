@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/plugin-compiler-dingding",
+  "name": "@zakijs/plugin-compiler-dingding",
   "version": "1.0.1",
   "description": "mor complier plugin for dingding miniprogram",
   "keywords": [
@@ -34,7 +34,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@morjs/plugin-compiler-alipay": "1.0.1",
-    "@morjs/utils": "1.0.1"
+    "@zakijs/plugin-compiler-alipay": "1.0.1",
+    "@zakijs/utils": "1.0.1"
   }
 }

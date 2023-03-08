@@ -2,6 +2,6 @@
 
 const utils = require('..')
 
-describe('@morjs/utils', () => {
+describe('@zakijs/utils', () => {
   it('needs tests')
 })

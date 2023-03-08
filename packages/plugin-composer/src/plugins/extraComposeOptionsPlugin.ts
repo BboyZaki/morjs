@@ -1,4 +1,4 @@
-import { ComposeModuleStates, Plugin, QUEUE, Runner } from '@morjs/utils'
+import { ComposeModuleStates, Plugin, QUEUE, Runner } from '@zakijs/utils'
 import { COMMAND_NAME } from '../constants'
 
 /**

@@ -1,5 +1,5 @@
-import type { CommandOptions, Generator, prompts, Runner } from '@morjs/utils'
-import { chalk, execa, logger } from '@morjs/utils'
+import type { CommandOptions, Generator, prompts, Runner } from '@zakijs/utils'
+import { chalk, execa, logger } from '@zakijs/utils'
 import path from 'path'
 
 const PROJECT_NAME_REGEXP =

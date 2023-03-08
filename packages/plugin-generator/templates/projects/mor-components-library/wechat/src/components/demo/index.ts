@@ -1,4 +1,4 @@
-import { wComponent } from '@morjs/core'
+import { wComponent } from '@zakijs/core'
 
 wComponent({
   attached() {

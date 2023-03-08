@@ -1,7 +1,7 @@
 import type {
   ComposeModuleInfo,
   ComposeModuleScriptCommand
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import {
   asArray,
   chalk,
@@ -20,7 +20,7 @@ import {
   RETRY_TIMES,
   Runner,
   setNPMBinPATH
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import crypto from 'crypto'
 import path from 'path'
 import {

@@ -6,7 +6,7 @@ import {
   lodash as _,
   Plugin,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import { CompilerUserConfig } from '../constants'

@@ -1,4 +1,4 @@
-import { logger, Plugin, Runner, Takin } from '@morjs/utils'
+import { logger, Plugin, Runner, Takin } from '@zakijs/utils'
 import Youch from 'youch'
 import youchTerminal from 'youch-terminal'
 

@@ -6,7 +6,7 @@ import {
   Runner,
   tsTransformerFactory,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import { CompilerUserConfig, COMPILE_COMMAND_NAME } from '../constants'
 

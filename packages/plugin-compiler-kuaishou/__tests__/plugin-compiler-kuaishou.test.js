@@ -2,6 +2,6 @@
 
 const pluginCompilerKuaishou = require('..')
 
-describe('@morjs/plugin-compiler-kuaishou', () => {
+describe('@zakijs/plugin-compiler-kuaishou', () => {
   it('needs tests')
 })

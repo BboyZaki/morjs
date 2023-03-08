@@ -14,7 +14,7 @@ import {
   UserConfig,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
 import type HtmlMinimizerPluginType from 'html-minimizer-webpack-plugin'
@@ -697,7 +697,7 @@ export async function buildWebpackConfig(
   // 添加 npm 解析目录
   // 优先添加 srcPaths 下的 node_modules
   // 再添加 cwd 目录下的 node_modules
-  // 最后兜底使用 @morjs/api 所在的 node_modules
+  // 最后兜底使用 @zakijs/api 所在的 node_modules
   chain.resolve.modules
     .add('node_modules')
     .merge(nodeModulesInSrcPaths)
@@ -705,7 +705,7 @@ export async function buildWebpackConfig(
     .add(CURRENT_NODE_MODULES)
     .end()
   try {
-    const apiPackage = '@morjs/api'
+    const apiPackage = '@zakijs/api'
     const fallbackNodeModule = require
       .resolve(apiPackage)
       .split(path.normalize(`/${apiPackage}/`))[0]

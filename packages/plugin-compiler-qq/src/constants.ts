@@ -1,4 +1,4 @@
-import { CompileModuleKind, CompileScriptTarget } from '@morjs/utils'
+import { CompileModuleKind, CompileScriptTarget } from '@zakijs/utils'
 
 export const target = 'qq'
 export const targetDescription = 'QQ 小程序'

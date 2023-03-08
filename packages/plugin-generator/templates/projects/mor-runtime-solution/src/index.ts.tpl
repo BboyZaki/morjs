@@ -1,4 +1,4 @@
-import type { MorSolution } from '@morjs/api'
+import type { MorSolution } from '@zakijs/api'
 
 /*
  * 若 solution 有设置参数 IRuntimeSolution<%= _.upperFirst(_.camelCase(name)) %>Options

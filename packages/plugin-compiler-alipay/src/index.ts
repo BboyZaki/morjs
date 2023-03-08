@@ -1,4 +1,4 @@
-import type { Plugin as MorPlugin, Runner } from '@morjs/utils'
+import type { Plugin as MorPlugin, Runner } from '@zakijs/utils'
 import AlipayCompilerConfigParserPlugin from './plugins/ConfigParserPlugin'
 import AlipayCompilerSjsParserPlugin from './plugins/SjsParserPlugin'
 import AlipayCompilerStyleParserPlugin from './plugins/StyleParserPlugin'

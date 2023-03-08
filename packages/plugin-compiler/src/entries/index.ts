@@ -28,7 +28,7 @@ import {
   UniversalifiedInputFileSystem,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import type _fs from 'fs'
 import path from 'path'
 import { CompilerPlugin, getComposedCompilerPlugins } from '../compilerPlugins'

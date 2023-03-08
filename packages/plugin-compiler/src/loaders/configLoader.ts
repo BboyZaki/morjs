@@ -4,7 +4,7 @@ import {
   lodash as _,
   logger,
   webpack
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { extname } from 'path'
 import { CustomLoaderOptions } from '../constants'
 import { parseJsonLike } from '../utils'

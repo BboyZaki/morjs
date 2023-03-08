@@ -1,4 +1,4 @@
-import { CompileModuleKind, CompileScriptTarget } from '@morjs/utils'
+import { CompileModuleKind, CompileScriptTarget } from '@zakijs/utils'
 
 export const target = 'bytedance'
 export const targetDescription = '字节小程序'

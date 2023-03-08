@@ -1,4 +1,4 @@
-import { Plugin, Runner, WebpackWrapper } from '@morjs/utils'
+import { Plugin, Runner, WebpackWrapper } from '@zakijs/utils'
 import { compile } from './compile'
 import {
   getAllCompilerTargets,
@@ -38,7 +38,7 @@ import { RuntimeInjectPlugin } from './plugins/runtimeInjectPlugin'
 import { preprocess } from './preprocessors/codePreprocessor'
 
 // 对外暴露 web 编译插件的 babel 相关依赖
-export * from '@morjs/plugin-compiler-web/lib/babelDeps'
+export * from '@zakijs/plugin-compiler-web/lib/babelDeps'
 export * from './compilerPlugins'
 export * from './constants'
 export { applyDefaults, COMPILE_LOADERS, preprocess }

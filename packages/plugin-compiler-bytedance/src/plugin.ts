@@ -1,5 +1,5 @@
-import type { Plugin, Runner, webpack, WebpackWrapper } from '@morjs/utils'
-import { asArray } from '@morjs/utils'
+import type { Plugin, Runner, webpack, WebpackWrapper } from '@zakijs/utils'
+import { asArray } from '@zakijs/utils'
 
 const PLUGIN_EXT_PREFIX = 'ext://'
 

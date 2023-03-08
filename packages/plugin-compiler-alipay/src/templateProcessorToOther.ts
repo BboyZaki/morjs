@@ -3,7 +3,7 @@ import {
   logger,
   posthtml,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import {
   getEventName,
   getNativeEventName,

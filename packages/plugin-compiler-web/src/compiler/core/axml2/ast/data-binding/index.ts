@@ -1,7 +1,7 @@
 import * as parser from '@babel/parser'
 import traverse from '@babel/traverse'
 import * as t from '@babel/types'
-import { logger } from '@morjs/utils'
+import { logger } from '@zakijs/utils'
 import { getOptionalChainCode } from '../../generate/utils'
 import { DataBindingNode } from '../types'
 

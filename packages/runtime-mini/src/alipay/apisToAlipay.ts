@@ -1,7 +1,7 @@
-import { getGlobalObject } from '@morjs/api/lib/env'
-import { logger } from '@morjs/api/lib/logger'
-import type { IAPITransformConfig } from '@morjs/api/lib/utils'
-import { transformApis } from '@morjs/api/lib/utils'
+import { getGlobalObject } from '@zakijs/api/lib/env'
+import { logger } from '@zakijs/api/lib/logger'
+import type { IAPITransformConfig } from '@zakijs/api/lib/utils'
+import { transformApis } from '@zakijs/api/lib/utils'
 import { needPromisfiedApis } from './needPromisfiedApis'
 
 /**

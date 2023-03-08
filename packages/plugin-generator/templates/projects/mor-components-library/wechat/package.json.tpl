@@ -27,13 +27,13 @@
     "dev": "mor compile --watch"
   },
   "dependencies": {
-    "@morjs/core": "beta"
+    "@zakijs/core": "beta"
   },
   "peerDependencies": {
     "tslib": "2"
   },
   "devDependencies": {
-    "@morjs/cli": "beta",
+    "@zakijs/cli": "beta",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^13.2.0",
     "@mini-types/alipay": "^2.0.0",

@@ -7,7 +7,7 @@ import {
   Runner,
   typescript as ts,
   UniversalifiedInputFileSystem
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import crypto from 'crypto'
 import path from 'path'
 import {

@@ -1,4 +1,4 @@
-import { aApp } from '@morjs/core'
+import { aApp } from '@zakijs/core'
 
 aApp({
   todos: [

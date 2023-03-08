@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/runtime-web",
+  "name": "@zakijs/runtime-web",
   "version": "1.0.0",
   "description": "mor runtime for web",
   "keywords": [

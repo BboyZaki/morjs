@@ -1,4 +1,4 @@
-import { EntryFileType, EntryType, webpack } from '@morjs/utils'
+import { EntryFileType, EntryType, webpack } from '@zakijs/utils'
 import { extname } from 'path'
 import { CompileModes, CustomLoaderOptions } from '../constants'
 

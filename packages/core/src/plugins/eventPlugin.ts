@@ -1,6 +1,6 @@
-import { createEvent, event } from '@morjs/api/lib/event'
-import type { MorHooks, MorPlugin } from '@morjs/api/lib/hooks'
-import { logger } from '@morjs/api/lib/logger'
+import { createEvent, event } from '@zakijs/api/lib/event'
+import type { MorHooks, MorPlugin } from '@zakijs/api/lib/hooks'
+import { logger } from '@zakijs/api/lib/logger'
 
 // 默认 event 使用标记
 let IS_DEFAULT_EVENT_USED = false

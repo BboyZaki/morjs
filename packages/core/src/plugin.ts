@@ -1,5 +1,5 @@
-import type { Emitter } from '@morjs/api/lib/event'
-import { logger } from '@morjs/api/lib/logger'
+import type { Emitter } from '@zakijs/api/lib/event'
+import { logger } from '@zakijs/api/lib/logger'
 
 export type GlobalGetApp = typeof getApp
 

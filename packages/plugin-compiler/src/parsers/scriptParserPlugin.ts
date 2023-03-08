@@ -11,7 +11,7 @@ import {
   tsTransformerFactory,
   typescript as ts,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import {
   CompilerUserConfig,
@@ -157,7 +157,7 @@ export class ScriptParserPlugin implements Plugin {
           ) {
             const importClause = makeImportClause(
               moduleKind,
-              '@morjs/api/lib/api',
+              '@zakijs/api/lib/api',
               'mor',
               MOR_IDENTIFIERS.Api,
               fileContent
@@ -174,7 +174,7 @@ export class ScriptParserPlugin implements Plugin {
           ) {
             const importClause = makeImportClause(
               moduleKind,
-              '@morjs/core/lib/app',
+              '@zakijs/core/lib/app',
               'createApp',
               MOR_IDENTIFIERS.App,
               fileContent
@@ -191,7 +191,7 @@ export class ScriptParserPlugin implements Plugin {
           ) {
             const importClause = makeImportClause(
               moduleKind,
-              '@morjs/core/lib/page',
+              '@zakijs/core/lib/page',
               'createPage',
               MOR_IDENTIFIERS.Page,
               fileContent
@@ -208,7 +208,7 @@ export class ScriptParserPlugin implements Plugin {
           ) {
             const importClause = makeImportClause(
               moduleKind,
-              '@morjs/core/lib/component',
+              '@zakijs/core/lib/component',
               'createComponent',
               MOR_IDENTIFIERS.Component,
               fileContent
@@ -224,7 +224,7 @@ export class ScriptParserPlugin implements Plugin {
   }
 
   /**
-   * 检查 @morjs/api 和 @morjs/core 是否存在
+   * 检查 @zakijs/api 和 @zakijs/core 是否存在
    */
   checkApiOrCoreRuntimeDepExistance(runner: Runner): {
     api: boolean
@@ -244,7 +244,7 @@ export class ScriptParserPlugin implements Plugin {
     const result = { api: false, core: false }
 
     ;(['api', 'core'] as const).map(function (name) {
-      const packageName = '@morjs/' + name
+      const packageName = '@zakijs/' + name
       try {
         const p = require.resolve(packageName, { paths: resolvePaths })
         if (p) {

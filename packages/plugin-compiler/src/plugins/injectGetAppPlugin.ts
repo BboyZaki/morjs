@@ -10,7 +10,7 @@ import {
   Plugin,
   Runner,
   webpack
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import { CompileModes, CompilerUserConfig } from '../constants'
 

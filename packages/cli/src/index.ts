@@ -1,8 +1,8 @@
-import AnalyzerPlugin from '@morjs/plugin-analyzer'
-import CompilerPlugin, { CompilerUserConfig } from '@morjs/plugin-compiler'
-import ComposerPlugin, { ComposerUserConfig } from '@morjs/plugin-composer'
-import GeneratorPlugin from '@morjs/plugin-generator'
-import MockerPlugin, { MockerUserConfig } from '@morjs/plugin-mocker'
+import AnalyzerPlugin from '@zakijs/plugin-analyzer'
+import CompilerPlugin, { CompilerUserConfig } from '@zakijs/plugin-compiler'
+import ComposerPlugin, { ComposerUserConfig } from '@zakijs/plugin-composer'
+import GeneratorPlugin from '@zakijs/plugin-generator'
+import MockerPlugin, { MockerUserConfig } from '@zakijs/plugin-mocker'
 import {
   CommandOptions,
   MaybePromise,
@@ -12,14 +12,14 @@ import {
   WebpackPlugin,
   WebpackUserConfig,
   zod as z
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import AutoReloadPlugin from './plugins/autoReloadPlugin'
 import CleanPlugin from './plugins/cleanPlugin'
 import CliPlugin from './plugins/cliPlugin'
 import PrettyErrorPlugin from './plugins/prettyErrorPlugin'
 
-export * from '@morjs/plugin-compiler'
-export * from '@morjs/utils'
+export * from '@zakijs/plugin-compiler'
+export * from '@zakijs/utils'
 /**
  * 允许通过API修改命令行版本号
  */

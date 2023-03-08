@@ -2,6 +2,6 @@
 
 const pluginCompilerAlipay = require('..')
 
-describe('@morjs/plugin-compiler-alipay', () => {
+describe('@zakijs/plugin-compiler-alipay', () => {
   it('needs tests')
 })

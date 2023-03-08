@@ -1,4 +1,4 @@
-import { CompileModuleKind, CompileScriptTarget } from '@morjs/utils'
+import { CompileModuleKind, CompileScriptTarget } from '@zakijs/utils'
 
 export const target = 'alipay'
 export const targetDescription = '支付宝小程序'
