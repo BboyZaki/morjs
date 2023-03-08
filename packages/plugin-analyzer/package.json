@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-analyzer",
-  "version": "1.0.4-beta.2",
+  "version": "1.0.4-beta.3",
   "description": "mor analyzer plugin",
   "keywords": [
     "mor",
@@ -26,12 +26,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eleme/morjs.git",
-    "directory": "@zakijs/plugin-analyzer"
+    "directory": "packages/plugin-analyzer"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zakijs/utils": "1.0.4-beta.1"
+    "@zakijs/utils": "1.0.4-beta.3"
   }
 }
