@@ -19,7 +19,8 @@
     "publish": {
       "allowBranch": [
         "main",
-        "beta"
+        "beta",
+        "feat/npm-publish"
       ],
       "message": "chore(release): publish packages"
     }
