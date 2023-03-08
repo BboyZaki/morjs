@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-wechat",
-  "version": "1.0.4-beta.0",
+  "version": "1.0.4-beta.1",
   "description": "mor complier plugin for wechat miniprogram",
   "keywords": [
     "mor",
@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "@zakijs/runtime-mini": "1.0.4-beta.0",
-    "@zakijs/utils": "1.0.4-beta.0"
+    "@zakijs/utils": "1.0.4-beta.1"
   }
 }

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.1](https://github.com/eleme/morjs/compare/v1.0.4-beta.0...v1.0.4-beta.1) (2023-03-08)
+
+
+### Bug Fixes
+
+* **utils:** fix takin version ([e77fb4f](https://github.com/eleme/morjs/commit/e77fb4fdab711bb00d79fa1081dcdf67fb54215a))
+
+
+
+
+
 ## 1.0.4-beta.0 (2023-03-08)
 
 

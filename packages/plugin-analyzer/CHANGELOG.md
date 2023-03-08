@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.1](https://github.com/eleme/morjs/compare/v1.0.4-beta.0...v1.0.4-beta.1) (2023-03-08)
+
+**Note:** Version bump only for package @zakijs/plugin-analyzer
+
+
+
+
+
 ## 1.0.4-beta.0 (2023-03-08)
 
 
