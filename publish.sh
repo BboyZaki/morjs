@@ -53,7 +53,7 @@ do
       cd $packageDir
 
       # 发布
-      npm publish
+      npm publish --access public
     else
       echo "$package 不存在，已跳过，请检查输入"
     fi
