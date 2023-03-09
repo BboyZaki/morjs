@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.5](https://github.com/eleme/morjs/compare/v1.0.4-beta.4...v1.0.4-beta.5) (2023-03-09)
+
+
+### Features
+
+* **utils:** detach css-minimizer-webpack-plugin and copy-webpack-plugin to utils ([dd59c1d](https://github.com/eleme/morjs/commit/dd59c1de09da00a716c85712c3660b6f41ed4f45))
+
+
+
+
+
 ## [1.0.4-beta.4](https://github.com/eleme/morjs/compare/v1.0.4-beta.3...v1.0.4-beta.4) (2023-03-09)
 
 

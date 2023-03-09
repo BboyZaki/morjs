@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/utils",
-  "version": "1.0.4-beta.4",
+  "version": "1.0.4-beta.5",
   "description": "mor utils",
   "keywords": [
     "mor",
@@ -35,11 +35,11 @@
     "@types/webpack": "^5.28.0",
     "cjstoesm": "^1.1.4",
     "console-png": "^1.2.1",
+    "copy-webpack-plugin": "^9.1.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
     "enhanced-resolve": "^5.9.3",
     "glob-to-regexp": "^0.4.1",
     "html-minimizer-webpack-plugin": "^3.5.0",
-    "css-minimizer-webpack-plugin": "^3.4.1",
-    "copy-webpack-plugin": "^9.1.0",
     "memfs": "^3.4.3",
     "micromatch": "^4.0.5",
     "p-queue": "^6.6.2",
