@@ -1,4 +1,5 @@
 import { cjsToEsmTransformer } from 'cjstoesm'
+import CopyWebpackPlugin from 'copy-webpack-plugin'
 import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
 import type HtmlMinimizerPluginType from 'html-minimizer-webpack-plugin'
 import micromatch from 'micromatch'
@@ -9,6 +10,7 @@ import posthtml from 'posthtml'
 import slash from 'slash'
 import * as takin from 'takin'
 import { fastGlob } from 'takin'
+import type TerserPluginType from 'terser-webpack-plugin'
 import typescript from 'typescript'
 import webpack from 'webpack'
 import WebpackChain from 'webpack-chain-5'
@@ -60,5 +62,7 @@ export {
   // 会导致 cjstoesm 报错, 具体原因有待排查, 所以我们暂时停留在 4.4 版本
   cjsToEsmTransformer,
   HtmlMinimizerPluginType,
-  CssMinimizerPluginType
+  CssMinimizerPluginType,
+  TerserPluginType,
+  CopyWebpackPlugin
 }

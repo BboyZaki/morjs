@@ -54,7 +54,6 @@
     "sass-loader": "^12.2.0",
     "stylus": "^0.55.0",
     "stylus-loader": "^6.2.0",
-    "terser-webpack-plugin": "^5.3.3",
     "tslib": "2",
     "webpack-bundle-analyzer": "^4.5.0",
     "xregexp": "^5.1.0"
