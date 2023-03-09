@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-web",
-  "version": "1.0.4-beta.9",
+  "version": "1.0.4-beta.10",
   "description": "mor complier plugin for web",
   "keywords": [
     "mor",
@@ -35,9 +35,9 @@
     "@babel/preset-env": "^7.18.2",
     "@babel/preset-react": "^7.12.12",
     "@babel/runtime": "^7.18.3",
-    "@zakijs/plugin-compiler-alipay": "1.0.4-beta.9",
+    "@zakijs/plugin-compiler-alipay": "1.0.4-beta.10",
     "@zakijs/runtime-web": "1.0.4-beta.3",
-    "@zakijs/utils": "1.0.4-beta.9",
+    "@zakijs/utils": "1.0.4-beta.10",
     "babel-plugin-add-module-exports": "^1.0.4",
     "postcss": "^7.0.26"
   }

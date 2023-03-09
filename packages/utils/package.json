@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/utils",
-  "version": "1.0.4-beta.9",
+  "version": "1.0.4-beta.10",
   "description": "mor utils",
   "keywords": [
     "mor",
@@ -31,6 +31,16 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/generator": "^7.18.2",
+    "@babel/parser": "^7.18.4",
+    "@babel/template": "^7.18.6",
+    "@babel/traverse": "^7.18.2",
+    "@babel/types": "^7.18.4",
+    "@types/babel__core": "^7.1.19",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__template": "^7.4.1",
+    "@types/babel__traverse": "^7.17.1",
     "@types/micromatch": "^4.0.2",
     "@types/webpack": "^5.28.0",
     "babel-loader": "8.2.5",
@@ -64,16 +74,6 @@
     "typescript": "~4.4.4",
     "webpack": "~5.74.0",
     "webpack-chain-5": "8.0.2",
-    "webpack-dev-server": "~4.10.0",
-    "@babel/core": "^7.18.2",
-    "@babel/generator": "^7.18.2",
-    "@babel/parser": "^7.18.4",
-    "@babel/template": "^7.18.6",
-    "@babel/traverse": "^7.18.2",
-    "@babel/types": "^7.18.4",
-    "@types/babel__core": "^7.1.19",
-    "@types/babel__generator": "^7.6.4",
-    "@types/babel__template": "^7.4.1",
-    "@types/babel__traverse": "^7.17.1"
+    "webpack-dev-server": "~4.10.0"
   }
 }
