@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.8](https://github.com/eleme/morjs/compare/v1.0.4-beta.7...v1.0.4-beta.8) (2023-03-09)
+
+
+### Features
+
+* **utils:** detach css loader to utils ([e277dc2](https://github.com/eleme/morjs/commit/e277dc27f837126c8a9db4833c8eb8e5e84d01c1))
+
+
+
+
+
 ## [1.0.4-beta.7](https://github.com/eleme/morjs/compare/v1.0.4-beta.6...v1.0.4-beta.7) (2023-03-09)
 
 
