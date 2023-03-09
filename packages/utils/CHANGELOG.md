@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.7](https://github.com/eleme/morjs/compare/v1.0.4-beta.6...v1.0.4-beta.7) (2023-03-09)
+
+
+### Features
+
+* **utils:** detach web plugin to utils ([2d7ad6c](https://github.com/eleme/morjs/commit/2d7ad6c4fc3e9d13dcfde1d78471763b0e61c1ba))
+
+
+
+
+
 ## [1.0.4-beta.6](https://github.com/eleme/morjs/compare/v1.0.4-beta.5...v1.0.4-beta.6) (2023-03-09)
 
 
