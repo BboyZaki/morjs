@@ -226,3 +226,11 @@ export async function isCommonJsModule(
     return isCommonJs
   }
 }
+
+/**
+ * 获取 utils 的依赖地址
+ * @param depName - 依赖名称
+ */
+export function resolveDependency(depName: string) {
+  return require.resolve(depName)
+}

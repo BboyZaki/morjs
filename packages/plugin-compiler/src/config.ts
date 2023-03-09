@@ -4,10 +4,12 @@ import {
   CompileTypes,
   Config,
   fsExtra as fs,
+  HtmlMinimizerPluginType,
   lodash as _,
   Logger,
   logger,
   MOR_RUNTIME_FILE,
+  resolveDependency,
   Runner,
   slash,
   SourceTypes,
@@ -17,7 +19,6 @@ import {
 } from '@zakijs/utils'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
-import type HtmlMinimizerPluginType from 'html-minimizer-webpack-plugin'
 import path from 'path'
 import type TerserPluginType from 'terser-webpack-plugin'
 import { inspect } from 'util'
@@ -910,7 +911,9 @@ export async function buildWebpackConfig(
      * 应用 html minimizer
      */
     if (userConfig.xmlMinimizer !== false) {
-      const HtmlMinimizerPlugin: typeof HtmlMinimizerPluginType = require('html-minimizer-webpack-plugin')
+      const HtmlMinimizerPlugin: typeof HtmlMinimizerPluginType = require(resolveDependency(
+        'html-minimizer-webpack-plugin'
+      ))
       const xmlMinimizerName = 'xmlMinimizer'
       const sjsTagName = composedPlugins.sjsTagName[target]
       const xmlMinifyConfig: Record<string, any> = {

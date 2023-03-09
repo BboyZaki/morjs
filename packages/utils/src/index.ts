@@ -1,4 +1,5 @@
 import { cjsToEsmTransformer } from 'cjstoesm'
+import type HtmlMinimizerPluginType from 'html-minimizer-webpack-plugin'
 import micromatch from 'micromatch'
 import * as pQueue from 'p-queue'
 import pRetry from 'p-retry'
@@ -56,5 +57,6 @@ export {
   // NOTE: typescript 4.5 版本对 esm 的接口支持发生了变更
   // 参见: https://github.com/microsoft/TypeScript/wiki/API-Breaking-Changes#typescript-45
   // 会导致 cjstoesm 报错, 具体原因有待排查, 所以我们暂时停留在 4.4 版本
-  cjsToEsmTransformer
+  cjsToEsmTransformer,
+  HtmlMinimizerPluginType
 }
