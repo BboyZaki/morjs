@@ -38,6 +38,8 @@
     "enhanced-resolve": "^5.9.3",
     "glob-to-regexp": "^0.4.1",
     "html-minimizer-webpack-plugin": "^3.5.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "copy-webpack-plugin": "^9.1.0",
     "memfs": "^3.4.3",
     "micromatch": "^4.0.5",
     "p-queue": "^6.6.2",

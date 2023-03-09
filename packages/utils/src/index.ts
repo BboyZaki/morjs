@@ -1,4 +1,5 @@
 import { cjsToEsmTransformer } from 'cjstoesm'
+import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
 import type HtmlMinimizerPluginType from 'html-minimizer-webpack-plugin'
 import micromatch from 'micromatch'
 import * as pQueue from 'p-queue'
@@ -58,5 +59,6 @@ export {
   // 参见: https://github.com/microsoft/TypeScript/wiki/API-Breaking-Changes#typescript-45
   // 会导致 cjstoesm 报错, 具体原因有待排查, 所以我们暂时停留在 4.4 版本
   cjsToEsmTransformer,
-  HtmlMinimizerPluginType
+  HtmlMinimizerPluginType,
+  CssMinimizerPluginType
 }

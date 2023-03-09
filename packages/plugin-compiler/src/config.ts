@@ -3,6 +3,7 @@ import {
   CompileModuleKind,
   CompileTypes,
   Config,
+  CssMinimizerPluginType,
   fsExtra as fs,
   HtmlMinimizerPluginType,
   lodash as _,
@@ -17,8 +18,6 @@ import {
   webpack,
   WebpackWrapper
 } from '@zakijs/utils'
-import CopyWebpackPlugin from 'copy-webpack-plugin'
-import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
 import path from 'path'
 import type TerserPluginType from 'terser-webpack-plugin'
 import { inspect } from 'util'
@@ -860,7 +859,9 @@ export async function buildWebpackConfig(
      * 应用 css minimizer
      */
     if (userConfig.cssMinimizer !== false) {
-      const CssMinimizerPlugin: typeof CssMinimizerPluginType = require('css-minimizer-webpack-plugin')
+      const CssMinimizerPlugin: typeof CssMinimizerPluginType = require(resolveDependency(
+        'css-minimizer-webpack-plugin'
+      ))
       userConfig.cssMinimizer =
         userConfig.cssMinimizer === true || !userConfig.cssMinimizer
           ? CSSMinimizerTypes.esbuild
@@ -1275,7 +1276,10 @@ export async function buildWebpackConfig(
 
   const copyConfig = { patterns }
 
-  chain.plugin('CopyWebpackPlugin').use(CopyWebpackPlugin, [copyConfig]).end()
+  chain
+    .plugin('CopyWebpackPlugin')
+    .use(require(resolveDependency('CopyWebpackPlugin')), [copyConfig])
+    .end()
 
   // 开启 bundle analyzer
   if (userConfig.analyzer) {
