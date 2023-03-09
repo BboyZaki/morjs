@@ -1,3 +1,4 @@
+import { Expression } from '@babel/types'
 import { cjsToEsmTransformer } from 'cjstoesm'
 import CopyWebpackPlugin from 'copy-webpack-plugin'
 import type CssMinimizerPluginType from 'css-minimizer-webpack-plugin'
@@ -33,6 +34,7 @@ declare module 'posthtml' {
 }
 
 export * from 'takin'
+export * from './babelDeps'
 export * from './constants'
 export * from './hooks'
 export * from './moduleGraph'
@@ -64,5 +66,6 @@ export {
   HtmlMinimizerPluginType,
   CssMinimizerPluginType,
   TerserPluginType,
-  CopyWebpackPlugin
+  CopyWebpackPlugin,
+  Expression
 }

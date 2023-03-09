@@ -1,5 +1,4 @@
-import * as t from '@babel/types'
-import { Expression } from '@babel/types'
+import { babelTypes as t, Expression } from '@zakijs/utils'
 import { isEnableStyleScope } from '../../../../utils'
 import { globalComponentName, randomHash } from '../../../option'
 import { ElementNode, EventAttributeNode } from '../../ast/types'

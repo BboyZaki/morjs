@@ -32,8 +32,6 @@ export {
   templateProcessor,
   templateSingleTagNames
 } from '@zakijs/plugin-compiler-alipay'
-// 对外暴露 babel 相关依赖, 减少重复引入
-export * from './babelDeps'
 export {
   defaultConditionalFileExt,
   defaultOutputDir,

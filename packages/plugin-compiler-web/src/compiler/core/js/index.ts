@@ -1,5 +1,4 @@
-import * as babel from '@babel/core'
-import generate from '@babel/generator'
+import { babelCore as babel, babelGenerator as generate } from '@zakijs/utils'
 import { WEB_RUNTIMES } from '../../../constants'
 import { defCondition, isEndIf, isIfDef } from '../../utils/comment'
 import { getAxmlResourcePath } from '../../utils/file-utils'
@@ -57,7 +56,7 @@ function transformFromCode(code: string, plugins, options: BuildOptions) {
 
   const tramformResult = babel.transformFromAstSync(ast, code, babelConfig)
 
-  const result = generate(tramformResult.ast)
+  const result = generate.default(tramformResult.ast)
 
   return result.code
 }

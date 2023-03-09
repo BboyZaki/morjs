@@ -1,4 +1,4 @@
-import * as t from '@babel/types'
+import { babelTypes as t } from '@zakijs/utils'
 import { isGlobalComponent } from '../../../option'
 import { ClassAttributeNode } from '../../ast/types'
 import Context from '../context'
