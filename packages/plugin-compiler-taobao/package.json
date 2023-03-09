@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-taobao",
-  "version": "1.0.4-beta.12",
+  "version": "1.0.4-beta.13",
   "description": "mor complier plugin for taobao miniprogram",
   "keywords": [
     "mor",

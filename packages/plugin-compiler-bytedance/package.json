@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-bytedance",
-  "version": "1.0.4-beta.12",
+  "version": "1.0.4-beta.13",
   "description": "mor complier plugin for bytedance miniprogram",
   "keywords": [
     "mor",
