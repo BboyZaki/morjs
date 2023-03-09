@@ -1060,7 +1060,7 @@ export async function buildWebpackConfig(
       // 之所以这么修改的原因是为了解决这个 issue: https://github.com/less/less.js/issues/1880
       // 简而言之就是为了规避 less 和 css 本身语法的冲突，调整了 默认的 less math 配置
       // 如果有用户遇到类似问题, 可以通过 webpackChain 修改 mor 的 less 配置来调整行为
-      .use('less').loader('less-loader').end()
+      .use('less').loader(resolveDependency('less-loader')).end()
       .use('preprocess')
         .loader(LOADERS.preprocess)
         .options(commonOptions)
@@ -1074,7 +1074,7 @@ export async function buildWebpackConfig(
       .type('asset/resource').generator(generatorOptions)
       .use('postprocess').loader(LOADERS.postprocess).options(commonOptions).end()
       .use('style').loader(LOADERS.style).options(commonOptions).end()
-      .use('sass').loader('sass-loader').options({
+      .use('sass').loader(resolveDependency('sass-loader')).options({
         // 这里需要强制 sass 的 outputStyle 为 expanded 否则 sass-loader 会根据 mode
         // 自动压缩 css, 压缩的事情交给  css-minimizer
         sassOptions: { outputStyle: "expanded" }

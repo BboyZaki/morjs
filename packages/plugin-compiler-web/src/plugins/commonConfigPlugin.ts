@@ -9,6 +9,7 @@ import {
   logger,
   mor,
   Plugin,
+  resolveDependency,
   Runner,
   webpack,
   WebpackWrapper
@@ -105,7 +106,7 @@ export class CommonConfigPlugin implements Plugin {
 
     // 这里使用 require 是为了加快启动速度
     const BABEL_LOADER = {
-      loader: require.resolve('babel-loader'),
+      loader: resolveDependency('babel-loader'),
       options: {
         compact: false,
         sourceType: 'unambiguous',

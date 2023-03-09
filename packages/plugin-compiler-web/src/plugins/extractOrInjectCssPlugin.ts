@@ -43,7 +43,7 @@ export class ExtractOrInjectCssPlugin implements Plugin {
         }
       ])
     } else {
-      extractOrStyleLoader = 'style-loader'
+      extractOrStyleLoader = resolveDependency('style-loader')
     }
 
     // importLoaders 代表通过 @import 引入的文件经过几个 loader
@@ -55,7 +55,7 @@ export class ExtractOrInjectCssPlugin implements Plugin {
     chain.module
       .rule('style')
         .use('css')
-          .loader('css-loader')
+          .loader(resolveDependency('css-loader'))
           .options(cssLoaderOptions)
           .before('postprocess')
           .end()
@@ -69,7 +69,7 @@ export class ExtractOrInjectCssPlugin implements Plugin {
     chain.module
       .rule('less')
         .use('css')
-          .loader('css-loader')
+          .loader(resolveDependency('css-loader'))
           .options(cssLoaderOptions)
           .before('postprocess')
           .end()
@@ -83,7 +83,7 @@ export class ExtractOrInjectCssPlugin implements Plugin {
     chain.module
       .rule('sass')
         .use('css')
-          .loader('css-loader')
+          .loader(resolveDependency('css-loader'))
           .options(cssLoaderOptions)
           .before('postprocess')
           .end()

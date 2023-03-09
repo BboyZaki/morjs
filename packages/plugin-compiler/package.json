@@ -47,13 +47,10 @@
     "csso": "^4.2.0",
     "esbuild": "^0.14.29",
     "less": "^4.1.2",
-    "less-loader": "^10.2.0",
     "nanoid": "^3.1.30",
     "postcss-selector-parser": "^6.0.6",
     "sass": "^1.43.2",
-    "sass-loader": "^12.2.0",
     "stylus": "^0.55.0",
-    "stylus-loader": "^6.2.0",
     "tslib": "2",
     "webpack-bundle-analyzer": "^4.5.0",
     "xregexp": "^5.1.0"
