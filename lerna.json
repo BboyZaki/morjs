@@ -1,12 +1,13 @@
 {
   "packages": [
-    "packages/*",
-    "examples/*"
+    "packages/*"
   ],
   "ignoreChanges": [
     "**/__fixtures__/**",
     "**/__tests__/**",
-    "**/*.md"
+    "**/*.md",
+    "**/create-mor/**",
+    "**/takin/**"
   ],
   "npmClient": "pnpm",
   "command": {
@@ -25,5 +26,5 @@
       "message": "chore(release): publish packages"
     }
   },
-  "version": "1.0.4-beta.2"
+  "version": "1.0.4-beta.3"
 }
