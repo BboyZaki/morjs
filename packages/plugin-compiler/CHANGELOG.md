@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.6](https://github.com/eleme/morjs/compare/v1.0.4-beta.5...v1.0.4-beta.6) (2023-03-09)
+
+
+### Features
+
+* **utils:** detach terser-webpack-plugin to utils ([7a66ede](https://github.com/eleme/morjs/commit/7a66edec58b5ee43197e12ba773ca3105cb68565))
+
+
+
+
+
 ## [1.0.4-beta.5](https://github.com/eleme/morjs/compare/v1.0.4-beta.4...v1.0.4-beta.5) (2023-03-09)
 
 
