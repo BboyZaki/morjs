@@ -33,6 +33,9 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "peerDependencies": {
+    "@zakijs/utils": "1.0.4-beta.12"
+  },
   "dependencies": {
     "@zakijs/plugin-compiler-alipay": "1.0.4-beta.12",
     "@zakijs/utils": "1.0.4-beta.12"

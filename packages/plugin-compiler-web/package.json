@@ -29,6 +29,9 @@
   "engines": {
     "node": ">= 12.13.0"
   },
+  "peerDependencies": {
+    "@zakijs/utils": "1.0.4-beta.12"
+  },
   "dependencies": {
     "@zakijs/plugin-compiler-alipay": "1.0.4-beta.12",
     "@zakijs/runtime-web": "1.0.4-beta.3",

@@ -28,6 +28,9 @@
   "engines": {
     "node": ">= 12.13.0"
   },
+  "peerDependencies": {
+    "@zakijs/utils": "1.0.4-beta.12"
+  },
   "dependencies": {
     "@parcel/css": "~1.8.3",
     "@swc/core": "1.2.192",
