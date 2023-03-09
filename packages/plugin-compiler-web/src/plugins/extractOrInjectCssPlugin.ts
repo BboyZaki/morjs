@@ -1,4 +1,9 @@
-import { Plugin, Runner, WebpackWrapper } from '@zakijs/utils'
+import {
+  Plugin,
+  resolveDependency,
+  Runner,
+  WebpackWrapper
+} from '@zakijs/utils'
 import { fileNameConfig, WebCompilerUserConfig } from '../constants'
 
 /**
@@ -22,7 +27,9 @@ export class ExtractOrInjectCssPlugin implements Plugin {
   setupCssSupport(web: WebCompilerUserConfig['web'], fileName: string) {
     const chain = this.wrapper.chain
 
-    const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+    const MiniCssExtractPlugin = require(resolveDependency(
+      'mini-css-extract-plugin'
+    ))
 
     let extractOrStyleLoader: string
 
