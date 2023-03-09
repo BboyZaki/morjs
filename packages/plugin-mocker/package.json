@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-mocker",
-  "version": "1.0.4-beta.8",
+  "version": "1.0.4-beta.9",
   "description": "mor mock plugin",
   "keywords": [
     "mor",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@zakijs/api": "1.0.4-beta.3",
-    "@zakijs/utils": "1.0.4-beta.8",
+    "@zakijs/utils": "1.0.4-beta.9",
     "tslib": "2"
   }
 }
