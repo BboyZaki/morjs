@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4-beta.4](https://github.com/BboyZaki/morjs/compare/v1.0.4-beta.3...v1.0.4-beta.4) (2023-03-09)
+
+### Features
+
+- **utils:** detach html-minimizer-webpack-plugin to utils ([b56057c](https://github.com/BboyZaki/morjs/commit/b56057cd60d2be5a1d566e5f27291d0d169636ef))
+
 ## [1.0.4-beta.2](https://github.com/BboyZaki/morjs/compare/v1.0.4-beta.1...v1.0.4-beta.2) (2023-03-08)
 
 ### Bug Fixes
