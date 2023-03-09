@@ -1,7 +1,8 @@
 import {
   babelCore as babel,
   babelGenerator as generate,
-  babelTypes as t
+  babelTypes as t,
+  resolveDependency
 } from '@zakijs/utils'
 import path from 'path'
 import { WEB_RUNTIMES } from '../../../../constants'
@@ -210,7 +211,7 @@ export default function (document: Document, options: AXMLOptions) {
   const result = generate.default(ast)
   if (options.isAtomicMode && !options.unitTest) {
     return babel.transformSync(result.code, {
-      presets: [require('@babel/preset-react')]
+      presets: [require(resolveDependency('@babel/preset-react'))]
     }).code
   }
   return result.code

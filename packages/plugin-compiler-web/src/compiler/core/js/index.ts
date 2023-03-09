@@ -38,7 +38,7 @@ export default function (content, options: BuildOptions) {
 
 function transformFromCode(code: string, plugins, options: BuildOptions) {
   let ast = babel.parse(code, {
-    // plugins: [require('@babel/plugin-transform-react-jsx'), require('@babel/plugin-proposal-class-properties')]
+    // plugins: [require(resolveDependency('@babel/plugin-transform-react-jsx')), require(resolveDependency('@babel/plugin-proposal-class-properties'))]
   })
   const newCode = skipConditionalCompilation(code, ast, options)
   if (newCode.length !== code.length) {

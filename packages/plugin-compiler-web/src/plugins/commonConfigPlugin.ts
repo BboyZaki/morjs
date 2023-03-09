@@ -112,11 +112,14 @@ export class CommonConfigPlugin implements Plugin {
         sourceType: 'unambiguous',
         // 配置 targets 以保证低版本浏览器的兼容性
         presets: [
-          [require('@babel/preset-env'), babelEnvOptions],
-          require('@babel/preset-react')
+          [require(resolveDependency('@babel/preset-env')), babelEnvOptions],
+          require(resolveDependency('@babel/preset-react'))
         ],
         plugins: [
-          [require('@babel/plugin-transform-runtime'), { version: '^7.18.3' }]
+          [
+            require(resolveDependency('@babel/plugin-transform-runtime')),
+            { version: '^7.18.3' }
+          ]
         ]
       }
     }
@@ -208,7 +211,7 @@ export class CommonConfigPlugin implements Plugin {
       presets: [
         // sjs 固定输出 commonjs 版本
         [
-          require('@babel/preset-env'),
+          require(resolveDependency('@babel/preset-env')),
           { ...babelEnvOptions, modules: 'commonjs' }
         ]
       ],
@@ -220,7 +223,7 @@ export class CommonConfigPlugin implements Plugin {
           // module.exports = {}
           // 同时添加 module.exports.default = {}
           // 原因: 支付宝小程序 和 百度小程序 sjs 语法导致
-          require('babel-plugin-add-module-exports'),
+          require(resolveDependency('babel-plugin-add-module-exports')),
           { addDefaultProperty: true }
         ]
       ]
