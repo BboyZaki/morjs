@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-dingding",
-  "version": "1.0.4-beta.13",
+  "version": "1.0.4-beta.14",
   "description": "mor complier plugin for dingding miniprogram",
   "keywords": [
     "mor",
@@ -37,7 +37,7 @@
     "@zakijs/utils": "1.0.4-beta.12"
   },
   "dependencies": {
-    "@zakijs/plugin-compiler-alipay": "1.0.4-beta.12",
-    "@zakijs/utils": "1.0.4-beta.12"
+    "@zakijs/plugin-compiler-alipay": "1.0.4-beta.14",
+    "@zakijs/utils": "1.0.4-beta.14"
   }
 }
