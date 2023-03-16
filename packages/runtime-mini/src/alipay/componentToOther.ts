@@ -1,6 +1,10 @@
-import { Base64 } from '@zakijs/api/lib/base64'
-import { logger } from '@zakijs/api/lib/logger'
-import { compose, generateId, getSharedProperty } from '@zakijs/api/lib/utils'
+import {
+  Base64,
+  compose,
+  generateId,
+  getSharedProperty,
+  logger
+} from '@zakijs/runtime-base'
 import clone from 'clone-deep'
 import { addEventProxy, injectInstanceMethodsSupport } from './utilsToOther'
 

@@ -1,5 +1,4 @@
-import { getGlobalObject } from '@zakijs/api/lib/env'
-import { transformApis } from '@zakijs/api/lib/utils'
+import { getGlobalObject, transformApis } from '@zakijs/runtime-base'
 
 /**
  * 微信需要被 promisified 的接口

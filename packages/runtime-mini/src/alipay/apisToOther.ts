@@ -1,7 +1,11 @@
-import { ENV_TYPE, getEnv, getGlobalObject } from '@zakijs/api/lib/env'
-import { logger } from '@zakijs/api/lib/logger'
-import type { IAPITransformConfig } from '@zakijs/api/lib/utils'
-import { transformApis } from '@zakijs/api/lib/utils'
+import {
+  ENV_TYPE,
+  getEnv,
+  getGlobalObject,
+  IAPITransformConfig,
+  logger,
+  transformApis
+} from '@zakijs/runtime-base'
 import { needPromisfiedApis } from './needPromisfiedApis'
 
 /**

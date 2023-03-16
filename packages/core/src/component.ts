@@ -1,12 +1,14 @@
-import { ENV_TYPE, getEnv, SOURCE_TYPE } from '@zakijs/api/lib/env'
-import { logger } from '@zakijs/api/lib/logger'
 import {
   asArray,
   compose,
+  ENV_TYPE,
   generateId,
+  getEnv,
   getSharedProperty,
-  IAnyFunc
-} from '@zakijs/api/lib/utils'
+  IAnyFunc,
+  logger,
+  SOURCE_TYPE
+} from '@zakijs/api'
 import type { IData } from './types'
 import { MOR_EVENT_METHOD_PREFIX } from './utils/constants'
 import { invokeHook } from './utils/invokeHook'

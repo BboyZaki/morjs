@@ -1,5 +1,4 @@
-import { logger } from '@zakijs/api/lib/logger'
-import { getSharedProperty } from '@zakijs/api/lib/utils'
+import { getSharedProperty, logger } from '@zakijs/runtime-base'
 
 interface IEventDetail {
   name?: string

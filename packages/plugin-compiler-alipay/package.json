@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-alipay",
-  "version": "1.0.4-beta.14",
+  "version": "1.0.6",
   "description": "mor complier plugin for alipay mini program",
   "keywords": [
     "mor",
@@ -35,7 +35,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zakijs/runtime-mini": "1.0.4-beta.3",
-    "@zakijs/utils": "1.0.4-beta.14"
+    "@zakijs/runtime-mini": "1.0.6",
+    "@zakijs/utils": "1.0.5"
   }
 }

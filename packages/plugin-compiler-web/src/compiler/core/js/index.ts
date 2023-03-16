@@ -1,4 +1,8 @@
-import { babelCore as babel, babelGenerator as generate } from '@zakijs/utils'
+import {
+  babelCore as babel,
+  babelGenerator as generate,
+  getRelativePath
+} from '@zakijs/utils'
 import { WEB_RUNTIMES } from '../../../constants'
 import { defCondition, isEndIf, isIfDef } from '../../utils/comment'
 import { getAxmlResourcePath } from '../../utils/file-utils'
@@ -6,9 +10,15 @@ import { BuildOptions } from '../option'
 import ComponentPlugin from './component'
 
 export default function (content, options: BuildOptions) {
-  const { isAtomicMode, templateFilePath, name } = options
+  const {
+    isAtomicMode,
+    templateFilePath,
+    hasAppConfig,
+    appConfigPath,
+    resourcePath,
+    configFilePath
+  } = options
   const config = options.config || {}
-
   if (templateFilePath) {
     content = `
     ${
@@ -19,9 +29,11 @@ export default function (content, options: BuildOptions) {
     export default $rm.${
       config.component ? 'Component' : 'Page'
     }($componentInfo$, $rm.mergeConfig(${
-      options.hasAppConfig ? 'require("@/app.json")' : '{}'
+      hasAppConfig
+        ? `require('${getRelativePath(resourcePath, appConfigPath)}')`
+        : '{}'
     }, ${
-      Object.keys(config).length === 0 ? '{}' : `require("${`./${name}.json`}")`
+      Object.keys(config).length === 0 ? '{}' : `require('${configFilePath}')`
     }))
     `
   }

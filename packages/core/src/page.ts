@@ -1,12 +1,12 @@
-import { SOURCE_TYPE } from '@zakijs/api/lib/env'
-import { logger } from '@zakijs/api/lib/logger'
 import {
   asArray,
   compose,
   generateId,
   getSharedProperty,
-  IAnyFunc
-} from '@zakijs/api/lib/utils'
+  IAnyFunc,
+  logger,
+  SOURCE_TYPE
+} from '@zakijs/api'
 import type { IData } from './types'
 import {
   APP_ON_HIDE_EVENT,

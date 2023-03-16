@@ -10,7 +10,13 @@ const Base64: IBase64 = {
   _keyStr: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=',
   encode: function (this: IBase64, input: string): string {
     let output = ''
-    let chr1, chr2, chr3, enc1, enc2, enc3, enc4
+    let chr1: number,
+      chr2: number,
+      chr3: number,
+      enc1: number,
+      enc2: number,
+      enc3: number,
+      enc4: number
     let i = 0
 
     input = Base64.utf8Encode(input)
@@ -41,8 +47,8 @@ const Base64: IBase64 = {
   },
   decode: function (input: string): string {
     let output = ''
-    let chr1, chr2, chr3
-    let enc1, enc2, enc3, enc4
+    let chr1: number, chr2: number, chr3: number
+    let enc1: number, enc2: number, enc3: number, enc4: number
     let i = 0
 
     input = input.replace(/[^A-Za-z0-9+/=]/g, '')

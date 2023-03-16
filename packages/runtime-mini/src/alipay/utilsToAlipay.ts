@@ -1,5 +1,4 @@
-import { getGlobalObject } from '@zakijs/api/lib/env'
-import { markAsUnsupport } from '@zakijs/api/lib/utils'
+import { getGlobalObject, markAsUnsupport } from '@zakijs/runtime-base'
 
 /**
  * 标记不支持的实例方法

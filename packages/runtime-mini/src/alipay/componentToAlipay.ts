@@ -1,6 +1,4 @@
-import { getGlobalObject } from '@zakijs/api/lib/env'
-import { logger } from '@zakijs/api/lib/logger'
-import { compose } from '@zakijs/api/lib/utils'
+import { compose, getGlobalObject, logger } from '@zakijs/runtime-base'
 import get from 'lodash.get'
 import has from 'lodash.has'
 import {

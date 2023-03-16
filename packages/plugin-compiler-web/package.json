@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-web",
-  "version": "1.0.4-beta.14",
+  "version": "1.0.6",
   "description": "mor complier plugin for web",
   "keywords": [
     "mor",
@@ -29,13 +29,10 @@
   "engines": {
     "node": ">= 12.13.0"
   },
-  "peerDependencies": {
-    "@zakijs/utils": "1.0.4-beta.12"
-  },
   "dependencies": {
-    "@zakijs/plugin-compiler-alipay": "1.0.4-beta.14",
-    "@zakijs/runtime-web": "1.0.4-beta.3",
-    "@zakijs/utils": "1.0.4-beta.14",
-    "postcss": "^7.0.26"
+    "@zakijs/plugin-compiler-alipay": "1.0.6",
+    "@zakijs/runtime-web": "1.0.0",
+    "@zakijs/utils": "1.0.5",
+    "postcss": "7.0.39"
   }
 }

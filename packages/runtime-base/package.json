@@ -1,40 +1,42 @@
 {
-  "name": "@zakijs/plugin-compiler-dingding",
+  "name": "@zakijs/runtime-base",
   "version": "1.0.6",
-  "description": "mor complier plugin for dingding miniprogram",
+  "description": "mor runtime base",
   "keywords": [
-    "mor",
-    "compiler",
-    "plugin",
-    "dingding",
-    "miniprogram"
+    "mor"
   ],
   "authors": [
     "Felix Liu <lyfeyaj@gmail.com> (https://github.com/lyfeyaj)"
   ],
   "homepage": "",
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
+    "esm": "esm",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "esm"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eleme/morjs.git",
-    "directory": "packages/plugin-compiler-dingding"
+    "directory": "packages/runtime-base"
   },
   "engines": {
     "node": ">= 12.13.0"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "tsc --module commonjs --outDir lib && tsc --module es2015 --outDir esm",
+    "test": "jest --colors",
+    "clean": "rimraf esm lib"
   },
+  "sideEffects": false,
   "dependencies": {
-    "@zakijs/plugin-compiler-alipay": "1.0.6",
-    "@zakijs/utils": "1.0.5"
+    "tslib": "2"
   }
 }

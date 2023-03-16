@@ -1,7 +1,12 @@
-import type { Emitter } from '@zakijs/api/lib/event'
-import type { MorHookNames, MorHooks, MorSolution } from '@zakijs/api/lib/hooks'
-import { logger } from '@zakijs/api/lib/logger'
-import { asArray, compose } from '@zakijs/api/lib/utils'
+import {
+  asArray,
+  compose,
+  Emitter,
+  logger,
+  MorHookNames,
+  MorHooks,
+  MorSolution
+} from '@zakijs/api'
 import type { IAppContext } from './plugins/contextPlugin'
 import type { IData } from './types'
 import { MOR_EVENT_PREFIX } from './utils/constants'

@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-baidu",
-  "version": "1.0.4-beta.14",
+  "version": "1.0.6",
   "description": "mor complier plugin for baidu miniprogram",
   "keywords": [
     "mor",
@@ -33,12 +33,9 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "peerDependencies": {
-    "@zakijs/utils": "1.0.4-beta.12"
-  },
   "dependencies": {
-    "@zakijs/plugin-compiler-wechat": "1.0.4-beta.14",
-    "@zakijs/runtime-mini": "1.0.4-beta.3",
-    "@zakijs/utils": "1.0.4-beta.14"
+    "@zakijs/plugin-compiler-wechat": "1.0.6",
+    "@zakijs/runtime-mini": "1.0.6",
+    "@zakijs/utils": "1.0.5"
   }
 }

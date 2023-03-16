@@ -3,127 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.0.4-beta.14](https://github.com/eleme/morjs/compare/v1.0.4-beta.13...v1.0.4-beta.14) (2023-03-13)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.13](https://github.com/eleme/morjs/compare/v1.0.4-beta.12...v1.0.4-beta.13) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.12](https://github.com/eleme/morjs/compare/v1.0.4-beta.11...v1.0.4-beta.12) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.11](https://github.com/eleme/morjs/compare/v1.0.4-beta.10...v1.0.4-beta.11) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.10](https://github.com/eleme/morjs/compare/v1.0.4-beta.9...v1.0.4-beta.10) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.9](https://github.com/eleme/morjs/compare/v1.0.4-beta.8...v1.0.4-beta.9) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.8](https://github.com/eleme/morjs/compare/v1.0.4-beta.7...v1.0.4-beta.8) (2023-03-09)
-
-
-### Features
-
-* **utils:** detach css loader to utils ([e277dc2](https://github.com/eleme/morjs/commit/e277dc27f837126c8a9db4833c8eb8e5e84d01c1))
-
-
-
-
-
-## [1.0.4-beta.7](https://github.com/eleme/morjs/compare/v1.0.4-beta.6...v1.0.4-beta.7) (2023-03-09)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## [1.0.4-beta.6](https://github.com/eleme/morjs/compare/v1.0.4-beta.5...v1.0.4-beta.6) (2023-03-09)
-
-
-### Features
-
-* **utils:** detach terser-webpack-plugin to utils ([7a66ede](https://github.com/eleme/morjs/commit/7a66edec58b5ee43197e12ba773ca3105cb68565))
-
-
-
-
-
-## [1.0.4-beta.5](https://github.com/eleme/morjs/compare/v1.0.4-beta.4...v1.0.4-beta.5) (2023-03-09)
-
-
-### Features
-
-* **utils:** detach css-minimizer-webpack-plugin and copy-webpack-plugin to utils ([dd59c1d](https://github.com/eleme/morjs/commit/dd59c1de09da00a716c85712c3660b6f41ed4f45))
-
-
-
-
-
-## [1.0.4-beta.4](https://github.com/eleme/morjs/compare/v1.0.4-beta.3...v1.0.4-beta.4) (2023-03-09)
-
-
-### Features
-
-* **utils:** detach html-minimizer-webpack-plugin to utils ([b56057c](https://github.com/eleme/morjs/commit/b56057cd60d2be5a1d566e5f27291d0d169636ef))
-
-
-
-
-
-## [1.0.4-beta.1](https://github.com/eleme/morjs/compare/v1.0.4-beta.0...v1.0.4-beta.1) (2023-03-08)
-
-**Note:** Version bump only for package @zakijs/plugin-compiler
-
-
-
-
-
-## 1.0.4-beta.0 (2023-03-08)
+## [1.0.8](https://github.com/eleme/morjs/compare/v1.0.7...v1.0.8) (2023-03-15)
 
 
 ### Bug Fixes
 
-* **plugin-compiler:** 修复 getApp 注入逻辑中 getLaunchOptionsSync 可能不是一个函数的问题 ([d2a3ef9](https://github.com/eleme/morjs/commit/d2a3ef93971845c17a05245eeaae66a7290fd1e3))
-* **plugin-compiler:** 修复错误将 npm 组件中样式文件作为普通样式文件解析的问题 ([de6935e](https://github.com/eleme/morjs/commit/de6935e03634383283240e4924d610192b506a8f))
-* **plugin-compiler:** transform 编译模式下允许找不到 npm 中的多端组件 ([4cef590](https://github.com/eleme/morjs/commit/4cef5901625070da88067a1973d65b2b4ab36dbb))
+* **plugin-compiler:** fix case where alias is an empty object ([#5](https://github.com/eleme/morjs/issues/5)) ([f1fec85](https://github.com/eleme/morjs/commit/f1fec8522bc9b832f025c67c0d6733960e2f0a83))
 
 
-### Features
 
-* **packages:** reset all packages names ([e442c03](https://github.com/eleme/morjs/commit/e442c0375457c92ac0ee554f26cccf32f2bbf3c6))
+
+
+## [1.0.7](https://github.com/eleme/morjs/compare/v1.0.6...v1.0.7) (2023-03-10)
+
+
+### Bug Fixes
+
+* **plugin-compiler:** 修复同一个项目中混用支付宝或微信 DSL 可能会导致样式冲突的问题 ([4f0577a](https://github.com/eleme/morjs/commit/4f0577a1a248256c167df5f9dc1d72a2340b73fa))
+
+
+
+
+
+## [1.0.6](https://github.com/eleme/morjs/compare/v1.0.5...v1.0.6) (2023-03-10)
+
+**Note:** Version bump only for package @morjs/plugin-compiler
+
+
+
+
+
+## [1.0.5](https://github.com/eleme/morjs/compare/v1.0.4...v1.0.5) (2023-03-10)
+
+**Note:** Version bump only for package @morjs/plugin-compiler
+
+
+
+
+
+## [1.0.4](https://github.com/eleme/morjs/compare/v1.0.3...v1.0.4) (2023-03-09)
+
+**Note:** Version bump only for package @morjs/plugin-compiler
 
 
 

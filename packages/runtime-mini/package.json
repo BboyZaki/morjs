@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/runtime-mini",
-  "version": "1.0.4-beta.3",
+  "version": "1.0.6",
   "description": "mor runtime for miniprogram",
   "keywords": [
     "mor",
@@ -36,12 +36,12 @@
   },
   "scripts": {
     "build": "tsc --module commonjs --outDir lib && tsc --module es2015 --outDir esm",
+    "clean": "rimraf esm lib",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "sideEffects": false,
   "dependencies": {
-    "@zakijs/api": "1.0.4-beta.3",
-    "@zakijs/core": "1.0.4-beta.3",
+    "@zakijs/runtime-base": "1.0.6",
     "clone-deep": "^4.0.1",
     "lodash.get": "^4.4.2",
     "lodash.has": "^4.5.2",

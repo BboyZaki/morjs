@@ -1,5 +1,4 @@
-import { getGlobalObject } from '@zakijs/api/lib/env'
-import { transformApis } from '@zakijs/api/lib/utils'
+import { getGlobalObject, transformApis } from '@zakijs/runtime-base'
 import { needPromisfiedApis as needPromisfiedApisForWechat } from '../wechat/apis'
 
 /**
