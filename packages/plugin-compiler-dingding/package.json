@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-dingding",
-  "version": "1.0.6",
+  "version": "1.0.9-beta.0",
   "description": "mor complier plugin for dingding miniprogram",
   "keywords": [
     "mor",
@@ -34,7 +34,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zakijs/plugin-compiler-alipay": "1.0.6",
-    "@zakijs/utils": "1.0.5"
+    "@zakijs/plugin-compiler-alipay": "1.0.9-beta.0",
+    "@zakijs/utils": "1.0.9-beta.0"
   }
 }

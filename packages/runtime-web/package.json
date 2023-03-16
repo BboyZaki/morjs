@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/runtime-web",
-  "version": "1.0.0",
+  "version": "1.0.9-beta.0",
   "description": "mor runtime for web",
   "keywords": [
     "mor",

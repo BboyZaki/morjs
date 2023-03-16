@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-generator",
-  "version": "1.0.5",
+  "version": "1.0.9-beta.0",
   "description": "mor generator plugin",
   "keywords": [
     "mor",
@@ -33,6 +33,6 @@
     "update-package-versions": "node ./updatePackageVersions"
   },
   "dependencies": {
-    "@zakijs/utils": "1.0.5"
+    "@zakijs/utils": "1.0.9-beta.0"
   }
 }

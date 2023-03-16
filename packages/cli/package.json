@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/cli",
-  "version": "1.0.8",
+  "version": "1.0.9-beta.0",
   "description": "mor cli",
   "keywords": [
     "mor",
@@ -33,12 +33,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@zakijs/plugin-analyzer": "1.0.5",
-    "@zakijs/plugin-compiler": "1.0.8",
-    "@zakijs/plugin-composer": "1.0.5",
-    "@zakijs/plugin-generator": "1.0.5",
-    "@zakijs/plugin-mocker": "1.0.6",
-    "@zakijs/utils": "1.0.5",
+    "@zakijs/plugin-analyzer": "1.0.9-beta.0",
+    "@zakijs/plugin-compiler": "1.0.9-beta.0",
+    "@zakijs/plugin-composer": "1.0.9-beta.0",
+    "@zakijs/plugin-generator": "1.0.9-beta.0",
+    "@zakijs/plugin-mocker": "1.0.9-beta.0",
+    "@zakijs/utils": "1.0.9-beta.0",
     "v8-compile-cache": "^2.3.0",
     "youch": "^3.2.2",
     "youch-terminal": "^2.1.5"

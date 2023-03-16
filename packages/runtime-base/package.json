@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/runtime-base",
-  "version": "1.0.6",
+  "version": "1.0.9-beta.0",
   "description": "mor runtime base",
   "keywords": [
     "mor"
