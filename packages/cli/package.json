@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/cli",
-  "version": "1.0.9-beta.0",
+  "version": "1.0.9-beta.1",
   "description": "mor cli",
   "keywords": [
     "mor",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "@zakijs/plugin-analyzer": "1.0.9-beta.0",
-    "@zakijs/plugin-compiler": "1.0.9-beta.0",
+    "@zakijs/plugin-compiler": "1.0.9-beta.1",
     "@zakijs/plugin-composer": "1.0.9-beta.0",
     "@zakijs/plugin-generator": "1.0.9-beta.0",
     "@zakijs/plugin-mocker": "1.0.9-beta.0",
