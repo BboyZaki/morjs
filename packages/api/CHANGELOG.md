@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.69-beta.0 (2023-07-31)
+
+
+### Features
+
+* 添加发布 [@zakijs](https://github.com/zakijs) 配置 ([8169946](https://github.com/eleme/morjs/commit/8169946d7d0a436a200cbe68c4ec26176373a133))
+
+
+
+
+
 ## [1.0.68](https://github.com/eleme/morjs/compare/v1.0.67...v1.0.68) (2023-07-14)
 
 **Note:** Version bump only for package @morjs/api

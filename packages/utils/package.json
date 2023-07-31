@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/utils",
-  "version": "1.0.68",
+  "version": "1.0.69-beta.0",
   "description": "mor utils",
   "keywords": [
     "mor",
@@ -75,8 +75,8 @@
     "postcss": "8.4.21",
     "posthtml": "0.16.6",
     "qr-image": "3.2.0",
-    "resolve": "1.22.2",
     "reserved-words": "0.1.2",
+    "resolve": "1.22.2",
     "sass": "1.60.0",
     "sass-loader": "12.6.0",
     "slash": "3.0.0",

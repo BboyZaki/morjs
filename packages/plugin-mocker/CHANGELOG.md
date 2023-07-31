@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.69-beta.0 (2023-07-31)
+
+
+### Bug Fixes
+
+* **plugin-mocker:** 修复 mock JSAPI 的异步方法获取 ESModule 数据需要使用 .default 的问题 ([#55](https://github.com/eleme/morjs/issues/55)) ([7476a47](https://github.com/eleme/morjs/commit/7476a4769b77f210126a34f826fc4425e047ff1d))
+* **plugin-mocker:** 修复 windows 下 mock 编译报错的问题 ([#50](https://github.com/eleme/morjs/issues/50)) ([6f78eac](https://github.com/eleme/morjs/commit/6f78eacd3dac0ab9168da34cf9f127945a7b671b))
+
+
+### Features
+
+* 添加发布 [@zakijs](https://github.com/zakijs) 配置 ([8169946](https://github.com/eleme/morjs/commit/8169946d7d0a436a200cbe68c4ec26176373a133))
+
+
+
+
+
 ## [1.0.68](https://github.com/eleme/morjs/compare/v1.0.67...v1.0.68) (2023-07-14)
 
 **Note:** Version bump only for package @morjs/plugin-mocker

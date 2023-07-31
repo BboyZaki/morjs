@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.69-beta.0 (2023-07-31)
+
+
+### Bug Fixes
+
+* **plugin-compiler-web:** 修复 @babel/runtime 依赖缺失 ([93b478f](https://github.com/eleme/morjs/commit/93b478f9cf18848e286ca751dcd30377438a9582))
+* **plugin-compiler-web:** 修复 runtime-web chunk 未抽取为单独的文件的问题 ([330eb5c](https://github.com/eleme/morjs/commit/330eb5c61af9eb253e24e3ab06a4425d6ff13c0c))
+* **plugin-compiler-web:** 修复 web 组件转换在生产模式下 js 文件名称错误及内容为空的问题 ([7501253](https://github.com/eleme/morjs/commit/750125345e1d37db180d8d3a4de66b171e573339))
+* **plugin-compiler-web:** 修复微信 DSL 转 Web 可能会找不到 sjs 文件的问题 ([fc77d21](https://github.com/eleme/morjs/commit/fc77d211d0d8957c1d4b1450a983e3a6328f9e48))
+* **plugin-compiler-web:** 修复转 Web 小程序组件库的产物加载入口和文档不一致的问题 ([584809f](https://github.com/eleme/morjs/commit/584809fea95163b2a504d308d31cf037846f17ae))
+* **plugin-compiler:** 修复由于 peerDependencies 导致的 webpack 多实例问题 ([#4](https://github.com/eleme/morjs/issues/4)) ([323b70b](https://github.com/eleme/morjs/commit/323b70b7826650fb3f90d2efa88d0215fee62da6))
+
+
+### Features
+
+* **plugin-compiler-web:** .json 文件支持条件编译 ([#3](https://github.com/eleme/morjs/issues/3)) ([d717375](https://github.com/eleme/morjs/commit/d717375bbad95413c9a23e639a78ec086d07b6e8))
+* **plugin-compiler-web:** 优化 Web 编译的 bundle 文件生成名称 ([f07acec](https://github.com/eleme/morjs/commit/f07acecde018d271fb3cd33bb6af60b1953568ad))
+* **runtime-web:** setClipboard 增加 queryCommand 实现方式 & 可以通过配置强切实现方式 ([#32](https://github.com/eleme/morjs/issues/32)) ([3b02ed7](https://github.com/eleme/morjs/commit/3b02ed7ba37a9950916b590246552b2fb192c4fa))
+* 添加发布 [@zakijs](https://github.com/zakijs) 配置 ([8169946](https://github.com/eleme/morjs/commit/8169946d7d0a436a200cbe68c4ec26176373a133))
+
+
+
+
+
 ## [1.0.68](https://github.com/eleme/morjs/compare/v1.0.67...v1.0.68) (2023-07-14)
 
 **Note:** Version bump only for package @morjs/plugin-compiler-web
