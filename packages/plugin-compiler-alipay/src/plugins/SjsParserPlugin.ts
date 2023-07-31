@@ -5,7 +5,7 @@ import {
   SourceTypes,
   tsTransformerFactory,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { isSimilarTarget } from '../constants'
 
 /**

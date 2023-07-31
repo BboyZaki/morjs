@@ -3,7 +3,7 @@ import {
   Runner,
   tsTransformerFactory,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { CompileModes, CompilerUserConfig } from '../constants'
 
 const primitiveToTSNode = (

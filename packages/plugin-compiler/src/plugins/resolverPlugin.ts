@@ -1,4 +1,4 @@
-import { webpack } from '@morjs/utils'
+import { webpack } from '@zakijs/utils'
 import path from 'path'
 import { NODE_MODULE_REGEXP } from '../constants'
 

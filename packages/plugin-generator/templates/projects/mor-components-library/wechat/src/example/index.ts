@@ -1,4 +1,4 @@
-import { wPage } from '@morjs/core'
+import { wPage } from '@zakijs/core'
 
 wPage({
   onLoad() {

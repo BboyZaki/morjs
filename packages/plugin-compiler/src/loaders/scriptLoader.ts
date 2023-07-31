@@ -3,7 +3,7 @@ import {
   EntryType,
   typescript as ts,
   webpack
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { CustomLoaderOptions } from '../constants'
 import {

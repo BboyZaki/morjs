@@ -5,7 +5,7 @@ import {
   logger,
   markAsUnsupport,
   transformApis
-} from '@morjs/runtime-base'
+} from '@zakijs/runtime-base'
 
 // 跨端支持的接口运行时引用注入位置, '' 空字符串是为了防止该注释被移除
 // prettier-ignore

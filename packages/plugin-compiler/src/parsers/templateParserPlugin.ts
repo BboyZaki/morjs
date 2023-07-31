@@ -8,7 +8,7 @@ import {
   Runner,
   slash,
   SourceTypes
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   CompilerTemplateDirectives,

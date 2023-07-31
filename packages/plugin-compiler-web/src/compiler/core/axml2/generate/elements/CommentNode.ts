@@ -1,4 +1,4 @@
-import { babelTypes as t } from '@morjs/utils'
+import { babelTypes as t } from '@zakijs/utils'
 import { defCondition, isEndIf, isIfDef } from '../../../../utils/comment'
 import { BuildOptions } from '../../../option'
 import { CommentNode, Element } from '../../ast/types'

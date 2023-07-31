@@ -1,4 +1,4 @@
-import { logger } from '@morjs/runtime-base'
+import { logger } from '@zakijs/runtime-base'
 
 /**
  * 自定义组件扩展

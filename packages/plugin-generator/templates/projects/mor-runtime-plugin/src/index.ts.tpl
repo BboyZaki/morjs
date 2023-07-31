@@ -1,4 +1,4 @@
-import type { MorHooks, MorPlugin } from '@morjs/api'
+import type { MorHooks, MorPlugin } from '@zakijs/api'
 
 /*
  * 若插件有设置参数 IRuntimePlugin<%= _.upperFirst(_.camelCase(name)) %>Options

@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/cli",
+  "name": "@zakijs/cli",
   "version": "1.0.68",
   "description": "mor cli",
   "keywords": [
@@ -33,12 +33,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@morjs/plugin-analyzer": "1.0.68",
-    "@morjs/plugin-compiler": "1.0.68",
-    "@morjs/plugin-composer": "1.0.68",
-    "@morjs/plugin-generator": "1.0.68",
-    "@morjs/plugin-mocker": "1.0.68",
-    "@morjs/utils": "1.0.68",
+    "@zakijs/plugin-analyzer": "1.0.68",
+    "@zakijs/plugin-compiler": "1.0.68",
+    "@zakijs/plugin-composer": "1.0.68",
+    "@zakijs/plugin-generator": "1.0.68",
+    "@zakijs/plugin-mocker": "1.0.68",
+    "@zakijs/utils": "1.0.68",
     "v8-compile-cache": "^2.3.0",
     "youch": "^3.2.2",
     "youch-terminal": "^2.1.5"

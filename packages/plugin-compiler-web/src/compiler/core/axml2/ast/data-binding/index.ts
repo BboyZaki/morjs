@@ -3,7 +3,7 @@ import {
   babelTraverse as traverse,
   babelTypes as t,
   logger
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getOptionalChainCode } from '../../generate/utils'
 import { DataBindingNode } from '../types'
 

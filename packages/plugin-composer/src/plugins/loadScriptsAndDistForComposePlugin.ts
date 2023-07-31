@@ -4,7 +4,7 @@ import {
   logger,
   Plugin,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { ComposerUserConfig } from '../constants'
 

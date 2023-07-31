@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/runtime-mini",
+  "name": "@zakijs/runtime-mini",
   "version": "1.0.68",
   "description": "mor runtime for miniprogram",
   "keywords": [
@@ -41,7 +41,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@morjs/runtime-base": "1.0.68",
+    "@zakijs/runtime-base": "1.0.68",
     "clone-deep": "^4.0.1",
     "lodash.get": "^4.4.2",
     "lodash.has": "^4.5.2",

@@ -1,4 +1,4 @@
-import { aComponent } from '@morjs/core'
+import { aComponent } from '@zakijs/core'
 
 aComponent({
   props: {

@@ -31,7 +31,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@morjs/cli": "*",
+    "@zakijs/cli": "*",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^13.2.0",
     "@typescript-eslint/eslint-plugin": "^5.30.5",

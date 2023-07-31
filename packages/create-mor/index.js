@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const mor = require('@morjs/cli').default
+const mor = require('@zakijs/cli').default
 
 mor.run({
   name: 'create',

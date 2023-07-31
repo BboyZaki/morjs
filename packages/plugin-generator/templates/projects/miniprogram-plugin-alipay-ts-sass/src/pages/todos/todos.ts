@@ -1,4 +1,4 @@
-import { aPage } from '@morjs/core'
+import { aPage } from '@zakijs/core'
 
 // 获取全局 app 实例
 const app = getApp()

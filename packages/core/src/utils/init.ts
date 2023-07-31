@@ -4,7 +4,7 @@ import {
   createHooks,
   hooks,
   MorSolution
-} from '@morjs/api'
+} from '@zakijs/api'
 import { ContextPlugin } from '../plugins/contextPlugin'
 import { EventPlugin } from '../plugins/eventPlugin'
 

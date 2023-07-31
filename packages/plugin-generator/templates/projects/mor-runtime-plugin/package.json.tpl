@@ -31,7 +31,7 @@
     "pre-release": "standard-version --prerelease beta"
   },
   "dependencies": {
-    "@morjs/api": "*"
+    "@zakijs/api": "*"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",

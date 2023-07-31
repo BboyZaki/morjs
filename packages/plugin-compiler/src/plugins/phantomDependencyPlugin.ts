@@ -8,7 +8,7 @@ import {
   tsTransformerFactory,
   typescript as ts,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { CompilerUserConfig, NODE_MODULE_REGEXP } from '../constants'
 

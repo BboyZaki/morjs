@@ -1,4 +1,4 @@
-import { expandExtsWithConditionalExt, lookupFile, slash } from '@morjs/utils'
+import { expandExtsWithConditionalExt, lookupFile, slash } from '@zakijs/utils'
 import * as path from 'path'
 import { defaultConditionalFileExt } from '../../constants'
 import type { BuildOptions } from '../core/option'

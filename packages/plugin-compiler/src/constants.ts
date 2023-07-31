@@ -1,4 +1,4 @@
-import type { WebCompilerUserConfig } from '@morjs/plugin-compiler-web'
+import type { WebCompilerUserConfig } from '@zakijs/plugin-compiler-web'
 import {
   CompileModuleKind,
   CompileScriptTarget,
@@ -11,7 +11,7 @@ import {
   validKeysMessage,
   webpack,
   zod as z
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   getAllCompilerTargets,
@@ -49,8 +49,8 @@ export const RUNTIME_SOURCE_TYPES = {
  * 兼容旧的基础库
  */
 export const MOR_RUNTIME_NPMS = {
-  api: ['@morjs/api', '@ali/openmor-api'],
-  core: ['@morjs/core', '@ali/openmor-core']
+  api: ['@zakijs/api', '@ali/openmor-api'],
+  core: ['@zakijs/core', '@ali/openmor-core']
 }
 
 /**
@@ -64,7 +64,7 @@ function generateMorRuntimeRegexp() {
   const rootDir = slash(path.resolve(__dirname, '..'))
   let packages = MOR_RUNTIME_NPMS.api
     .concat(MOR_RUNTIME_NPMS.core)
-    .concat('@morjs/runtime-base')
+    .concat('@zakijs/runtime-base')
 
   // 代表为仓库代码
   if (rootDir.endsWith('packages/plugin-compiler')) {

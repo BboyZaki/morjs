@@ -3,7 +3,7 @@ import {
   NAME_REGEXP,
   objectEnum,
   zod as z
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 export const COMMAND_NAME = 'compose'
 

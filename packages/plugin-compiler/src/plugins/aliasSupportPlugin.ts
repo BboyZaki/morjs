@@ -11,7 +11,7 @@ import {
   typescript as ts,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { CompileModes, CompilerUserConfig } from '../constants'
 

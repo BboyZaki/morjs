@@ -1,4 +1,4 @@
-import { compose, logger } from '@morjs/runtime-base'
+import { compose, logger } from '@zakijs/runtime-base'
 import get from 'lodash.get'
 import has from 'lodash.has'
 import set from 'lodash.set'

@@ -6,7 +6,7 @@ import { isSimilarTarget, target as CurrentTarget } from './constants'
  * @param fileName - 文件名
  */
 function generatePath(dir: string, fileName: string): string {
-  return require.resolve(`@morjs/runtime-mini/lib/${dir}/${fileName}.js`)
+  return require.resolve(`@zakijs/runtime-mini/lib/${dir}/${fileName}.js`)
 }
 
 /**

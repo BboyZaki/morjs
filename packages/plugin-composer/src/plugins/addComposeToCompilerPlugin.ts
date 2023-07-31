@@ -8,7 +8,7 @@ import {
   Plugin,
   Runner,
   slash
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   composeHostAndModules,

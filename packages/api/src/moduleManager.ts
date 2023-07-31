@@ -1,4 +1,4 @@
-import { ENV_TYPE, getEnv, getGlobalObject, logger } from '@morjs/runtime-base'
+import { ENV_TYPE, getEnv, getGlobalObject, logger } from '@zakijs/runtime-base'
 import { mor } from './api'
 
 /**

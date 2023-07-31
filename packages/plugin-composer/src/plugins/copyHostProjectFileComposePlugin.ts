@@ -1,4 +1,4 @@
-import { logger, takin } from '@morjs/utils'
+import { logger, takin } from '@zakijs/utils'
 import path from 'path'
 
 const { fsExtra: fs, lookupFile } = takin

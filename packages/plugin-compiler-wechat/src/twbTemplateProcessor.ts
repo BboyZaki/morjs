@@ -1,4 +1,4 @@
-import { FileParserOptions, posthtml } from '@morjs/utils'
+import { FileParserOptions, posthtml } from '@zakijs/utils'
 import { target } from './constants'
 
 // 支持双向绑定的组件配置

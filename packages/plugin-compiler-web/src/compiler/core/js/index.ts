@@ -2,7 +2,7 @@ import {
   babelCore as babel,
   babelGenerator as generate,
   getRelativePath
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { WEB_RUNTIMES } from '../../../constants'
 import { defCondition, isEndIf, isIfDef } from '../../utils/comment'
 import { getAxmlResourcePath } from '../../utils/file-utils'

@@ -4,7 +4,7 @@ import {
   fastGlob as glob,
   prompts,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 
 const SUPPORT_GENERATOR_TYPES = ['page', 'component']
@@ -61,7 +61,7 @@ async function generatePageOrComponent(
   const parts = [sourceType, tsOrJs]
   if (css) parts.push(css)
 
-  let runtimeName = '@morjs/core'
+  let runtimeName = '@zakijs/core'
   // 允许插件通过 fetchCustomGeneratorOptions 方法定制
   if (runner.methods.has('fetchCustomCoreRuntimeLibraryName')) {
     runtimeName =

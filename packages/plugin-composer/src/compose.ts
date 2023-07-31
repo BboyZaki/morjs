@@ -16,7 +16,7 @@ import {
   QUEUE,
   RETRY_TIMES,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import crypto from 'crypto'
 import path from 'path'
 import {

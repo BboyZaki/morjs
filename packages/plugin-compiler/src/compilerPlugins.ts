@@ -2,15 +2,15 @@
  * 载入所有编译插件
  * 供后续使用
  */
-import * as alipayCompiler from '@morjs/plugin-compiler-alipay'
-import * as baiduCompiler from '@morjs/plugin-compiler-baidu'
-import * as bytedanceCompiler from '@morjs/plugin-compiler-bytedance'
-import * as dingdingCompiler from '@morjs/plugin-compiler-dingding'
-import * as kuaishouCompiler from '@morjs/plugin-compiler-kuaishou'
-import * as qqCompiler from '@morjs/plugin-compiler-qq'
-import * as taobaoCompiler from '@morjs/plugin-compiler-taobao'
-import * as webCompiler from '@morjs/plugin-compiler-web'
-import * as wechatCompiler from '@morjs/plugin-compiler-wechat'
+import * as alipayCompiler from '@zakijs/plugin-compiler-alipay'
+import * as baiduCompiler from '@zakijs/plugin-compiler-baidu'
+import * as bytedanceCompiler from '@zakijs/plugin-compiler-bytedance'
+import * as dingdingCompiler from '@zakijs/plugin-compiler-dingding'
+import * as kuaishouCompiler from '@zakijs/plugin-compiler-kuaishou'
+import * as qqCompiler from '@zakijs/plugin-compiler-qq'
+import * as taobaoCompiler from '@zakijs/plugin-compiler-taobao'
+import * as webCompiler from '@zakijs/plugin-compiler-web'
+import * as wechatCompiler from '@zakijs/plugin-compiler-wechat'
 import {
   CompileModuleKindType,
   CompileScriptTargetType,
@@ -18,7 +18,7 @@ import {
   Plugin,
   posthtml,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 /**
  * 默认支持的 插件列表

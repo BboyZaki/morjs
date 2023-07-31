@@ -1,4 +1,4 @@
-import { fsExtra, logger, Plugin, Takin } from '@morjs/utils'
+import { fsExtra, logger, Plugin, Takin } from '@zakijs/utils'
 import { createHash } from 'crypto'
 
 let IS_RELOADING = false

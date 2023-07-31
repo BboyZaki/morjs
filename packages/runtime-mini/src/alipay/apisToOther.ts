@@ -5,7 +5,7 @@ import {
   IAPITransformConfig,
   logger,
   transformApis
-} from '@morjs/runtime-base'
+} from '@zakijs/runtime-base'
 import { needPromisfiedApis } from './needPromisfiedApis'
 
 /**

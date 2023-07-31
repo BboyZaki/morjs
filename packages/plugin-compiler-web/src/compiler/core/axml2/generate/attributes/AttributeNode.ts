@@ -1,4 +1,4 @@
-import { babelTypes as t } from '@morjs/utils'
+import { babelTypes as t } from '@zakijs/utils'
 import { isGlobalComponent } from '../../../option'
 import { AttributeNode, Element } from '../../ast/types'
 import Context from '../context'

@@ -1,4 +1,4 @@
-import { logger } from '@morjs/api'
+import { logger } from '@zakijs/api'
 import { Callback, ICallItem, IConfig } from './types'
 
 // 整体时序记录

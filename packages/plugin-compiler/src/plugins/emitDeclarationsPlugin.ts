@@ -6,7 +6,7 @@ import {
   Runner,
   typescript as ts,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   CompileModes,

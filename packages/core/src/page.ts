@@ -6,7 +6,7 @@ import {
   IAnyFunc,
   logger,
   SOURCE_TYPE
-} from '@morjs/api'
+} from '@zakijs/api'
 import type { IData } from './types'
 import {
   APP_ON_HIDE_EVENT,

@@ -1,4 +1,4 @@
-import { compose, IAnyFunc, SOURCE_TYPE } from '@morjs/api'
+import { compose, IAnyFunc, SOURCE_TYPE } from '@zakijs/api'
 import { enhanceComponent, MorComponentEnhanceFeatures } from './component'
 import { enhancePage, MorPageOptions } from './page'
 import type { IData } from './types'

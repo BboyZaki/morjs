@@ -7,7 +7,7 @@ import {
   Runner,
   WebpackDevServer,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import net from 'net'
 import os from 'os'
 import { WebCompilerUserConfig } from '../constants'

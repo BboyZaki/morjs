@@ -1,4 +1,4 @@
-import { getSharedProperty, logger, MorHookNames } from '@morjs/api'
+import { getSharedProperty, logger, MorHookNames } from '@zakijs/api'
 
 /**
  * 调用 hook

@@ -1,4 +1,9 @@
-import { Plugin, resolveDependency, Runner, WebpackWrapper } from '@morjs/utils'
+import {
+  Plugin,
+  resolveDependency,
+  Runner,
+  WebpackWrapper
+} from '@zakijs/utils'
 import { fileNameConfig, WebCompilerUserConfig } from '../constants'
 
 /**

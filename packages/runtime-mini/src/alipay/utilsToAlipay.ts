@@ -1,4 +1,4 @@
-import { getGlobalObject, logger, markAsUnsupport } from '@morjs/runtime-base'
+import { getGlobalObject, logger, markAsUnsupport } from '@zakijs/runtime-base'
 
 export function canIUse(name: string): boolean {
   return !!getGlobalObject()?.canIUse?.(name)

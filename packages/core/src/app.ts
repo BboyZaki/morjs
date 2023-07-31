@@ -6,7 +6,7 @@ import {
   MorHookNames,
   MorHooks,
   MorSolution
-} from '@morjs/api'
+} from '@zakijs/api'
 import type { IAppContext } from './plugins/contextPlugin'
 import type { IData } from './types'
 import { MOR_EVENT_PREFIX } from './utils/constants'

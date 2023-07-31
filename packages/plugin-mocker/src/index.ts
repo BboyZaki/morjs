@@ -7,7 +7,7 @@ import {
   Runner,
   slash,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { createRequire } from 'module'
 import path from 'path'
 import { MockerUserConfigSchema } from './constants'

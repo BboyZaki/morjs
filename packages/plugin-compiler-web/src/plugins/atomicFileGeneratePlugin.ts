@@ -1,5 +1,5 @@
-import { fileType } from '@morjs/plugin-compiler-alipay'
-import { EntryFileType, Plugin, Runner } from '@morjs/utils'
+import { fileType } from '@zakijs/plugin-compiler-alipay'
+import { EntryFileType, Plugin, Runner } from '@zakijs/utils'
 
 /**
  * 非 bundle 模式下

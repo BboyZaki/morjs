@@ -1,4 +1,4 @@
-import { FileParserOptions, logger, posthtml } from '@morjs/utils'
+import { FileParserOptions, logger, posthtml } from '@zakijs/utils'
 import path from 'path'
 import {
   fileType,

@@ -1,4 +1,4 @@
-import { getEnv, logger } from '@morjs/api'
+import { getEnv, logger } from '@zakijs/api'
 import Attach from './attach'
 import { notNeedLog, notNeedNoMockWarn } from './constants'
 import MockItem from './mockItem'

@@ -1,4 +1,4 @@
-import { logger, Plugin, Runner, webpack } from '@morjs/utils'
+import { logger, Plugin, Runner, webpack } from '@zakijs/utils'
 import path from 'path'
 
 /**

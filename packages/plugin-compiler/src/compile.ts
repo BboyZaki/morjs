@@ -6,7 +6,7 @@ import {
   Runner,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import {
   CHILD_COMPILER_RUNNER,

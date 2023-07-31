@@ -4,7 +4,7 @@ import {
   posthtml,
   tsTransformerFactory,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import {
   getEventName,
   getNativeEventName,

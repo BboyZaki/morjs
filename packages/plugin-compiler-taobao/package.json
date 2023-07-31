@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/plugin-compiler-taobao",
+  "name": "@zakijs/plugin-compiler-taobao",
   "version": "1.0.68",
   "description": "mor complier plugin for taobao miniprogram",
   "keywords": [
@@ -34,7 +34,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@morjs/plugin-compiler-alipay": "1.0.68",
-    "@morjs/utils": "1.0.68"
+    "@zakijs/plugin-compiler-alipay": "1.0.68",
+    "@zakijs/utils": "1.0.68"
   }
 }

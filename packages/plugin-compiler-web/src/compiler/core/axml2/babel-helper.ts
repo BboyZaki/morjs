@@ -2,7 +2,7 @@ import {
   babelParser as parser,
   babelTraverse as traverse,
   babelTypes as t
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 /**
  * 提取对象表达式中的value 对应 名称

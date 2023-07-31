@@ -4,7 +4,7 @@ import {
   Plugin,
   Runner,
   UserConfig
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { target } from './constants'
 
 /**

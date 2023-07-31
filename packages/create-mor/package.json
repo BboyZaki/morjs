@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/eleme/morjs/tree/main/packages/create-mor#readme",
   "dependencies": {
-    "@morjs/cli": "1.0.68"
+    "@zakijs/cli": "1.0.68"
   }
 }

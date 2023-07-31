@@ -1,4 +1,4 @@
-import { compose } from '@morjs/runtime-base'
+import { compose } from '@zakijs/runtime-base'
 import { injectHasBehaviorSupport } from '../common/behaviorOrMixin'
 import {
   injectComponentSelectorMethodsSupport,

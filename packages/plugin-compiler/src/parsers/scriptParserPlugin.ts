@@ -13,7 +13,7 @@ import {
   tsTransformerFactory,
   typescript as ts,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import {
   CompilerUserConfig,
@@ -228,7 +228,7 @@ export class ScriptParserPlugin implements Plugin {
   }
 
   /**
-   * 检查 @morjs/api 和 @morjs/core 是否存在
+   * 检查 @zakijs/api 和 @zakijs/core 是否存在
    */
   checkApiOrCoreRuntimeDepExistance(runner: Runner): {
     api: false | string

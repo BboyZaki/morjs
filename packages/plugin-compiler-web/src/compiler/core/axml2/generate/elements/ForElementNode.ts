@@ -1,4 +1,4 @@
-import { babelTypes as t } from '@morjs/utils'
+import { babelTypes as t } from '@zakijs/utils'
 import { ForElementNode } from '../../ast/types'
 import Context from '../context'
 import { checkDataBinding } from '../error'

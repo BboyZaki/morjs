@@ -1,4 +1,4 @@
-import type { Plugin, Runner, Takin } from '@morjs/utils'
+import type { Plugin, Runner, Takin } from '@zakijs/utils'
 import create from './create'
 import generate from './generate'
 

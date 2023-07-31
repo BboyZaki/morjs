@@ -2,7 +2,7 @@ import {
   babelCore as babel,
   babelGenerator as generate,
   babelTypes as t
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 const HashChars =
   'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678oOLl9gqVvUuI1'

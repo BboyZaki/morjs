@@ -5,7 +5,7 @@ import {
   Plugin,
   Runner,
   Takin
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 
 function delay(callback: () => any, ms: number = 600): Promise<void> {

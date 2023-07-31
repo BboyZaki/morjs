@@ -1,4 +1,4 @@
-import { logger } from '@morjs/utils'
+import { logger } from '@zakijs/utils'
 import { inspect } from 'util'
 
 /**

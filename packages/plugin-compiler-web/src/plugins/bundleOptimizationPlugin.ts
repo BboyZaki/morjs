@@ -5,7 +5,7 @@ import {
   Runner,
   SourceTypes,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 
 /**
  * 默认编译优化配置
@@ -73,7 +73,7 @@ export class BundleOptimizationPlugin implements Plugin {
         // runtime-web 运行时
         web: {
           name: MOR_RUNTIME_WEB_FILE(globalNameSuffix),
-          test: /(@morjs[\\/]|@ali[\\/]openmor-)runtime-web/,
+          test: /(@zakijs[\\/]|@ali[\\/]openmor-)runtime-web/,
           priority: 3
         },
 

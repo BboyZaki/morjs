@@ -4,7 +4,7 @@ import {
   Plugin,
   Runner,
   SourceTypes
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { isSimilarTarget } from '../constants'
 
 const UNSUPPORT_SELECTOR_REGEXP = /(\s+[>|+]\s+)|\*|\~/

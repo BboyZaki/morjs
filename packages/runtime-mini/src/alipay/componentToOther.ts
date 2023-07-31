@@ -4,7 +4,7 @@ import {
   generateId,
   getSharedProperty,
   logger
-} from '@morjs/runtime-base'
+} from '@zakijs/runtime-base'
 import clone from 'clone-deep'
 import { injectHasMixinSupport } from '../common/behaviorOrMixin'
 import { addEventProxy, injectInstanceMethodsSupport } from './utilsToOther'

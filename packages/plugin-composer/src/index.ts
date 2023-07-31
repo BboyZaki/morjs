@@ -6,7 +6,7 @@ import {
   Plugin,
   Runner,
   validKeysMessage
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { compose, generateComposeModuleHash } from './compose'
 import {
   COMMAND_NAME,

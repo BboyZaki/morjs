@@ -3,7 +3,7 @@ import {
   babelGenerator as generate,
   babelTypes as t,
   resolveDependency
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { WEB_RUNTIMES } from '../../../../constants'
 import {

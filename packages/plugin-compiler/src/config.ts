@@ -2,7 +2,7 @@ import type {
   CssMinimizerPlugin as CssMinimizerPluginType,
   HtmlMinimizerPlugin as HtmlMinimizerPluginType,
   TerserPlugin as TerserPluginType
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import {
   asArray,
   CompileModuleKind,
@@ -21,7 +21,7 @@ import {
   UserConfig,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { inspect } from 'util'
 import type { BundleAnalyzerPlugin as BundleAnalyzerPluginType } from 'webpack-bundle-analyzer'
@@ -778,7 +778,7 @@ export async function buildWebpackConfig(
   // 添加 npm 解析目录
   // 优先添加 srcPaths 下的 node_modules
   // 再添加 cwd 目录下的 node_modules
-  // 最后兜底使用 @morjs/api 所在的 node_modules
+  // 最后兜底使用 @zakijs/api 所在的 node_modules
   chain.resolve.modules
     .add('node_modules')
     .merge(nodeModulesInSrcPaths)

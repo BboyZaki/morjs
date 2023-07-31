@@ -7,7 +7,7 @@ import {
   logger,
   Plugin,
   Runner
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { CompilerUserConfig, COMPILE_COMMAND_NAME } from '../constants'
 
 const EntryBuilderMap = new WeakMap<Runner, EntryBuilderHelpers>()

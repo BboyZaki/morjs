@@ -5,11 +5,11 @@ import { target as CurrentTarget } from './constants'
  * @param fileName - 文件名
  */
 function generatePath(fileName: string): string {
-  return require.resolve(`@morjs/runtime-mini/lib/baidu/${fileName}.js`)
+  return require.resolve(`@zakijs/runtime-mini/lib/baidu/${fileName}.js`)
 }
 
 function generateCommonPath(fileName: string): string {
-  return require.resolve(`@morjs/runtime-mini/lib/common/${fileName}.js`)
+  return require.resolve(`@zakijs/runtime-mini/lib/common/${fileName}.js`)
 }
 
 /**

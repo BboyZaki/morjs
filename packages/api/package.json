@@ -1,5 +1,5 @@
 {
-  "name": "@morjs/api",
+  "name": "@zakijs/api",
   "version": "1.0.68",
   "description": "mor runtime api",
   "keywords": [
@@ -37,7 +37,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@morjs/runtime-base": "1.0.68",
+    "@zakijs/runtime-base": "1.0.68",
     "tslib": "^2.3.1"
   }
 }

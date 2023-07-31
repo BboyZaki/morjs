@@ -1,5 +1,5 @@
-import { compileModuleKind } from '@morjs/plugin-compiler-alipay'
-import WebDefaultComponentsConfig from '@morjs/runtime-web/lib/components/config'
+import { compileModuleKind } from '@zakijs/plugin-compiler-alipay'
+import WebDefaultComponentsConfig from '@zakijs/runtime-web/lib/components/config'
 import {
   asArray,
   CompileModuleKind,
@@ -13,7 +13,7 @@ import {
   Runner,
   webpack,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import Module from 'module'
 import {
   ASSETS_REGEXP,

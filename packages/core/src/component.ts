@@ -8,7 +8,7 @@ import {
   IAnyFunc,
   logger,
   SOURCE_TYPE
-} from '@morjs/api'
+} from '@zakijs/api'
 import type { IData } from './types'
 import { MOR_EVENT_METHOD_PREFIX } from './utils/constants'
 import { invokeHook } from './utils/invokeHook'

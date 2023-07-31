@@ -6,7 +6,7 @@ import {
   resolveDependency,
   Runner,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import type { WebCompilerUserConfig } from '../constants'
 import { globalObject as DEFAULT_GLOBAL_OBJECT } from '../constants'
 

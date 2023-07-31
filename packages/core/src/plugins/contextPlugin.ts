@@ -1,4 +1,4 @@
-import { logger, MorHooks, MorPlugin } from '@morjs/api'
+import { logger, MorHooks, MorPlugin } from '@zakijs/api'
 
 export interface IAppContext {
   appQuery: Record<string, any>

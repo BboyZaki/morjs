@@ -1,4 +1,4 @@
-import { fileType } from '@morjs/plugin-compiler-alipay'
+import { fileType } from '@zakijs/plugin-compiler-alipay'
 import {
   asArray,
   EntryBuilderHelpers,
@@ -6,7 +6,7 @@ import {
   slash,
   webpack,
   WebpackUserConfig
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import path from 'path'
 import { BuildOptions } from '../compiler/core/option'
 import { defaultConditionalFileExt } from '../constants'

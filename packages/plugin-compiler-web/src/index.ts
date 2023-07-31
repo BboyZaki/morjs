@@ -1,10 +1,10 @@
-import { addSimilarTarget } from '@morjs/plugin-compiler-alipay'
+import { addSimilarTarget } from '@zakijs/plugin-compiler-alipay'
 import {
   EntryBuilderHelpers,
   Plugin as MorPlugin,
   Runner,
   WebpackWrapper
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { target as WEB_TARGET, UserConfigSchema } from './constants'
 import { AtomicFileGeneratePlugin } from './plugins/atomicFileGeneratePlugin'
 import { BundleOptimizationPlugin } from './plugins/bundleOptimizationPlugin'
@@ -31,7 +31,7 @@ export {
   templateDirectives,
   templateProcessor,
   templateSingleTagNames
-} from '@morjs/plugin-compiler-alipay'
+} from '@zakijs/plugin-compiler-alipay'
 export {
   defaultConditionalFileExt,
   defaultOutputDir,

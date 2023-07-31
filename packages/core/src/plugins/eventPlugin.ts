@@ -1,4 +1,4 @@
-import { createEvent, event, logger, MorHooks, MorPlugin } from '@morjs/api'
+import { createEvent, event, logger, MorHooks, MorPlugin } from '@zakijs/api'
 
 // 默认 event 使用标记
 let IS_DEFAULT_EVENT_USED = false

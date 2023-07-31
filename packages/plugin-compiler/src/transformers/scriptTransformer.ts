@@ -11,7 +11,7 @@ import {
   isCommonJsModule,
   logger,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { getComposedCompilerPlugins } from '../compilerPlugins'
 import { CompileModes } from '../constants'
 import { loadUserTsCompilerOptions } from '../utils'

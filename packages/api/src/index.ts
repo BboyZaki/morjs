@@ -1,6 +1,6 @@
 import { mor } from './api'
 
-export * from '@morjs/runtime-base'
+export * from '@zakijs/runtime-base'
 export * from './api'
 export * from './moduleManager'
 

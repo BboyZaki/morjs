@@ -1,4 +1,4 @@
-import { Plugin, Runner, WebpackWrapper } from '@morjs/utils'
+import { Plugin, Runner, WebpackWrapper } from '@zakijs/utils'
 import { compile } from './compile'
 import {
   getAllCompilerTargets,

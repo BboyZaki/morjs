@@ -1,4 +1,4 @@
-import { EntryType, logger, postcss, webpack } from '@morjs/utils'
+import { EntryType, logger, postcss, webpack } from '@zakijs/utils'
 import path from 'path'
 import { CustomLoaderOptions } from '../constants'
 

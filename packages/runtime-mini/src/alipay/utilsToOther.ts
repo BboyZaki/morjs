@@ -1,4 +1,4 @@
-import { getSharedProperty, logger } from '@morjs/runtime-base'
+import { getSharedProperty, logger } from '@zakijs/runtime-base'
 
 interface IEventDetail {
   name?: string

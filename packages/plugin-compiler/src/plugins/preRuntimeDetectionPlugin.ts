@@ -4,7 +4,7 @@ import {
   Runner,
   tsTransformerFactory,
   typescript as ts
-} from '@morjs/utils'
+} from '@zakijs/utils'
 import { CompilerUserConfig, COMPILE_COMMAND_NAME } from '../constants'
 
 const SOURCETYPE_CORE_CORRESPONDENCE = {

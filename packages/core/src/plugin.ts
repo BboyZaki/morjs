@@ -1,4 +1,4 @@
-import { Emitter, logger } from '@morjs/api'
+import { Emitter, logger } from '@zakijs/api'
 
 export type GlobalGetApp = typeof getApp
 

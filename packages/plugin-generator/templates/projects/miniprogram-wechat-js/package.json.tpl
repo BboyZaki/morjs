@@ -18,9 +18,9 @@
   <% } %>
   "license": "",
   "dependencies": {
-    "@morjs/core": "*"
+    "@zakijs/core": "*"
   },
   "devDependencies": {
-    "@morjs/cli": "*"
+    "@zakijs/cli": "*"
   }
 }
