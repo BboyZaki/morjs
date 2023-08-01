@@ -31,7 +31,7 @@ type LoaderContext = webpack.LoaderContext<any>
 export type TSCustomVisitor = (
   node: ts.Node,
   context: ts.TransformationContext
-) => ts.VisitResult<ts.Node>
+) => ts.Node
 
 /**
  * 生成 ts 的 transformer 插件
@@ -41,7 +41,7 @@ export type TSCustomVisitor = (
  */
 export function tsTransformerFactory(
   visitor?: TSCustomVisitor
-): ts.TransformerFactory<ts.SourceFile> {
+): ts.TransformerFactory<ts.Node> {
   if (!visitor) return
 
   return (ctx) => (sourceFile) => {
