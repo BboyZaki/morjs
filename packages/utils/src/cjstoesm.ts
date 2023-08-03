@@ -2168,7 +2168,6 @@ function visitVariableDeclaration({
         context.addTrailingStatements(
           factory.createExportDeclaration(
             undefined,
-            undefined,
             false,
             exportClause,
             moduleSpecifierExpression
@@ -2183,7 +2182,6 @@ function visitVariableDeclaration({
         context.addTrailingStatements(
           factory.createExportDeclaration(
             undefined,
-            undefined,
             false,
             exportClause,
             moduleSpecifierExpression
@@ -2193,7 +2191,6 @@ function visitVariableDeclaration({
       } else {
         context.addImport(
           factory.createImportDeclaration(
-            undefined,
             undefined,
             factory.createImportClause(
               false,
@@ -2219,12 +2216,7 @@ function visitVariableDeclaration({
           )
         ])
         context.addTrailingStatements(
-          factory.createExportDeclaration(
-            undefined,
-            undefined,
-            false,
-            exportClause
-          )
+          factory.createExportDeclaration(undefined, false, exportClause)
         )
         return undefined
       }
@@ -2240,7 +2232,6 @@ function visitVariableDeclaration({
 
       context.addImport(
         factory.createImportDeclaration(
-          undefined,
           undefined,
           moduleExports == null || moduleExports.hasDefaultExport
             ? factory.createImportClause(
@@ -2357,7 +2348,6 @@ function visitVariableDeclaration({
         context.addImport(
           factory.createImportDeclaration(
             undefined,
-            undefined,
             factory.createImportClause(false, undefined, namedImports),
             factory.createStringLiteral(transformedModuleSpecifier),
             maybeGenerateAssertClause(
@@ -2390,7 +2380,6 @@ function visitVariableDeclaration({
       if (otherImportSpecifiers.length > 0) {
         context.addImport(
           factory.createImportDeclaration(
-            undefined,
             undefined,
             factory.createImportClause(
               false,
@@ -2640,12 +2629,7 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
           if (!context.isDefaultExported) {
             context.markDefaultAsExported()
             context.addTrailingStatements(
-              factory.createExportAssignment(
-                undefined,
-                undefined,
-                false,
-                exportedSymbol
-              )
+              factory.createExportAssignment(undefined, false, exportedSymbol)
             )
           }
 
@@ -2694,7 +2678,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
             statements.push(
               factory.createExportDeclaration(
                 undefined,
-                undefined,
                 false,
                 namedExports,
                 undefined
@@ -2725,7 +2708,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
 
             statements.push(
               factory.createExportDeclaration(
-                undefined,
                 undefined,
                 false,
                 namedExports,
@@ -2836,7 +2818,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
             statements.push(
               factory.createExportAssignment(
                 undefined,
-                undefined,
                 false,
                 factory.createIdentifier(moduleExportsIdentifierName)
               )
@@ -2849,7 +2830,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
             factory.createObjectLiteralExpression(elements, true)
           statements.push(
             factory.createExportAssignment(
-              undefined,
               undefined,
               false,
               defaultExportInitializer
@@ -2883,12 +2863,7 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
                   : continuationResult
 
               context.addTrailingStatements(
-                factory.createExportAssignment(
-                  undefined,
-                  undefined,
-                  false,
-                  exportedSymbol
-                )
+                factory.createExportAssignment(undefined, false, exportedSymbol)
               )
               return replacementNode
             }
@@ -2927,7 +2902,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
             context.addTrailingStatements(
               factory.createExportDeclaration(
                 undefined,
-                undefined,
                 false,
                 namedExports,
                 moduleSpecifierExpression
@@ -2937,7 +2911,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
           } else {
             context.addTrailingStatements(
               factory.createExportDeclaration(
-                undefined,
                 undefined,
                 false,
                 undefined,
@@ -2976,12 +2949,7 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
       ])
 
       context.addTrailingStatements(
-        factory.createExportDeclaration(
-          undefined,
-          undefined,
-          false,
-          namedExports
-        )
+        factory.createExportDeclaration(undefined, false, namedExports)
       )
       return continuationResult
     } else if (typescript.isIdentifier(right)) {
@@ -3002,12 +2970,7 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
         ])
         context.markLocalAsExported(local)
         context.addTrailingStatements(
-          factory.createExportDeclaration(
-            undefined,
-            undefined,
-            false,
-            namedExports
-          )
+          factory.createExportDeclaration(undefined, false, namedExports)
         )
       }
       return undefined
@@ -3047,7 +3010,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
           ])
           context.addTrailingStatements(
             factory.createExportDeclaration(
-              undefined,
               undefined,
               false,
               namedExports,
@@ -3099,7 +3061,6 @@ function visitBinaryExpression({ node, sourceFile, context, continuation }) {
                 )
               ),
               factory.createExportDeclaration(
-                undefined,
                 undefined,
                 false,
                 namedExports,
@@ -3215,7 +3176,6 @@ function visitCallExpression({
           factory.createImportDeclaration(
             undefined,
             undefined,
-            undefined,
             factory.createStringLiteral(transformedModuleSpecifier),
             maybeGenerateAssertClause(
               context,
@@ -3248,7 +3208,6 @@ function visitCallExpression({
 
         context.addImport(
           factory.createImportDeclaration(
-            undefined,
             undefined,
             importClause,
             factory.createStringLiteral(transformedModuleSpecifier),
@@ -3324,8 +3283,6 @@ function visitCallExpression({
           context.addImport(
             factory.createImportDeclaration(
               undefined,
-              undefined,
-
               moduleExports.hasDefaultExport
                 ? factory.createImportClause(false, identifier, undefined)
                 : factory.createImportClause(
@@ -3405,7 +3362,6 @@ function visitCallExpression({
           context.addImport(
             factory.createImportDeclaration(
               undefined,
-              undefined,
               importClause,
               factory.createStringLiteral(transformedModuleSpecifier),
               maybeGenerateAssertClause(
@@ -3471,8 +3427,6 @@ function visitCallExpression({
         context.addImport(
           factory.createImportDeclaration(
             undefined,
-            undefined,
-
             moduleExports.hasDefaultExport
               ? factory.createImportClause(false, identifier, undefined)
               : factory.createImportClause(
@@ -3600,8 +3554,6 @@ function visitCallExpression({
           context.addImport(
             factory.createImportDeclaration(
               undefined,
-              undefined,
-
               moduleExports.hasDefaultExport
                 ? factory.createImportClause(false, identifier, undefined)
                 : factory.createImportClause(
@@ -3624,7 +3576,6 @@ function visitCallExpression({
         if (importSpecifiers.length > 0) {
           context.addImport(
             factory.createImportDeclaration(
-              undefined,
               undefined,
               factory.createImportClause(
                 false,
@@ -3699,8 +3650,6 @@ function visitCallExpression({
       context.addImport(
         factory.createImportDeclaration(
           undefined,
-          undefined,
-
           moduleExports.hasDefaultExport
             ? factory.createImportClause(false, identifier, undefined)
             : factory.createImportClause(
@@ -3750,8 +3699,6 @@ function visitCallExpression({
       context.addImport(
         factory.createImportDeclaration(
           undefined,
-          undefined,
-
           moduleExports.hasDefaultExport
             ? factory.createImportClause(false, identifier, undefined)
             : factory.createImportClause(
