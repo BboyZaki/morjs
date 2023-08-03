@@ -1,6 +1,6 @@
 {
   "name": "@zakijs/plugin-compiler-alipay",
-  "version": "1.0.69-beta.0",
+  "version": "1.0.69-beta.1",
   "description": "mor complier plugin for alipay mini program",
   "keywords": [
     "mor",
@@ -36,6 +36,6 @@
   },
   "dependencies": {
     "@zakijs/runtime-mini": "1.0.69-beta.0",
-    "@zakijs/utils": "1.0.69-beta.0"
+    "@zakijs/utils": "1.0.69-beta.1"
   }
 }

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.69-beta.1](https://github.com/eleme/morjs/compare/v1.0.69-beta.0...v1.0.69-beta.1) (2023-08-03)
+
+
+### Features
+
+* **utils:** 修复升级 ts 后部分 api 参数变动后的报错 ([9d12902](https://github.com/eleme/morjs/commit/9d12902a76ffd477a5388c52c6131147c2fff759))
+* **utils:** 修复升级 ts 后部分 api 参数变动后的报错 ([1c96262](https://github.com/eleme/morjs/commit/1c962624202f26b434868f63d3ede373b106c870))
+
+
+
+
+
 ## 1.0.69-beta.0 (2023-07-31)
 
 
