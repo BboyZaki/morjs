@@ -35,7 +35,7 @@ const WebpackConfigSchema = z.object({
 })
 
 // copy from watchpack for logically consistent
-const stringToRegexp = (ignored: string) => {
+export const stringToRegexp = (ignored: string) => {
   const source = globToRegExp(ignored, {
     globstar: true,
     extended: true
@@ -43,7 +43,8 @@ const stringToRegexp = (ignored: string) => {
   const matchingStart = source.slice(0, source.length - 1) + '(?:$|\\/)'
   return matchingStart
 }
-const ignoredToFunction = (
+
+export const ignoredToFunction = (
   ignored: string | string[] | RegExp | ((x: string) => boolean)
 ) => {
   if (Array.isArray(ignored)) {
@@ -78,7 +79,7 @@ type Universalify<T> = T extends (
   ? ((arg0: A) => Promise<B>) & T
   : never
 
-function universalify<T extends (...args: any[]) => any>(
+export function universalify<T extends (...args: any[]) => any>(
   fn: T
 ): Universalify<T> {
   return Object.defineProperty(
@@ -98,7 +99,7 @@ function universalify<T extends (...args: any[]) => any>(
   ) as unknown as Universalify<T>
 }
 
-function combinedFn<T extends (...args: any[]) => any>(fn1: T, fn2: T): T {
+export function combinedFn<T extends (...args: any[]) => any>(fn1: T, fn2: T): T {
   return Object.defineProperty(
     function (...args: unknown[]): unknown {
       const callback = args[args.length - 1]
@@ -151,7 +152,7 @@ type CallbackFunction = Parameters<Compiler['run']>[0]
  * 创建自定义 fs
  * 用于提供模拟文件以及
  */
-function createCustomFS(): {
+export function createCustomFS(): {
   inputFileSystem: InputFileSystem
   fs: UniversalifiedInputFileSystem
 } {

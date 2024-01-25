@@ -1,12 +1,12 @@
 import consolePng from 'console-png'
-import { delimiter, dirname, relative, resolve } from 'path'
+import { delimiter,dirname,relative,resolve } from 'path'
 import qrImage from 'qr-image'
 import slash from 'slash'
-import { asArray, COLORS, esbuild, execa, logger } from 'takin'
+import { asArray,COLORS,esbuild,execa,logger } from 'takin'
 import {
-  COMMAND_TIMEOUT,
-  CompileModuleKind,
-  CompileModuleKindType
+COMMAND_TIMEOUT,
+CompileModuleKind,
+CompileModuleKindType
 } from './constants'
 import { ComposeModuleScriptCommand } from './hooks'
 import { Changeable } from './types'
@@ -160,7 +160,7 @@ export function makeImportClause(
   importPath = slash(importPath)
   // 判断是否 commonjs
   // 优先使用文件内容判断, 避免一个文件里面使用多种 module 类型
-  if (isCommonJsModule(fileContent, moduleKind)) {
+  if (isCommonJsModuleSync(fileContent, moduleKind)) {
     const fragment = `require('${importPath}')`
     if (!importName) {
       return `${fragment};\n`
@@ -231,6 +231,23 @@ export async function isCommonJsModule(
   } else {
     return isCommonJs
   }
+}
+
+/**
+ * 同步判断文件是否为 commonjs 模块
+ * @param fileContent - 文件内容
+ * @param moduleKind - 文件类型
+ * @returns `true` or `false`
+ */
+export function isCommonJsModuleSync(
+  fileContent: string,
+  moduleKind: CompileModuleKindType,
+): boolean {
+  return (fileContent &&
+    (fileContent.includes('require(') ||
+    fileContent.includes('module.exports') ||
+    fileContent.includes('exports.'))
+  ) || moduleKind === CompileModuleKind.CommonJS
 }
 
 /**

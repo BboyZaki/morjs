@@ -11,6 +11,7 @@
     "clean": "node ./scripts/clean.js",
     "lint": "eslint . --fix",
     "test": "lerna run test",
+    "test:utils": "pnpm build -- utils && lerna run test --scope=@morjs/utils -- --coverage",
     "format": "prettier --write .",
     "prepare": "husky install",
     "bootstrap": "lerna bootstrap",
@@ -61,5 +62,6 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": "eslint --cache --fix",
     "*.{js,ts,css,md}": "prettier --write"
-  }
+  },
+  "repository": "git@github.com:BboyZaki/morjs.git"
 }
