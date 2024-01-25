@@ -62,6 +62,5 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": "eslint --cache --fix",
     "*.{js,ts,css,md}": "prettier --write"
-  },
-  "repository": "git@github.com:BboyZaki/morjs.git"
+  }
 }
